@@ -1,0 +1,28 @@
+.language-switcher {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+.language-switcher button {
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.language-switcher button.active {
+  background: #007bff;
+  color: white;
+  border-color: #0056b3;
+}
+
+.language-switcher button:hover {
+  background: #f8f9fa;
+}
+
+.language-switcher button.active:hover {
+  background: #0056b3;
+} 

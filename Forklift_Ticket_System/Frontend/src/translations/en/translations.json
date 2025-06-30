@@ -1,0 +1,432 @@
+{
+  "navbar": {
+    "dashboard": "Dashboard",
+    "createTicket": "Create Ticket",
+    "changePassword": "Change Password",
+    "logout": "Logout",
+    "profile": {
+      "role": "Role",
+      "email": "Email"
+    }
+  },
+  "dashboard": {
+    "adminTitle": "Admin Dashboard",
+    "ticket_managerTitle": "Ticket Manager Dashboard",
+    "customer_managerTitle": "Customer Manager Dashboard",
+    "sales_managerTitle": "Sales Manager Dashboard",
+    "userTitle": "User Dashboard",
+    "title": "Dashboard",
+    "loading": "Loading ticket details...",
+    "error": "Error loading ticket details",
+    "retry": "Retry",
+    "loading_ticket_manager_dashboard": "Loading Ticket Manager Dashboard...",
+    "loading_customer_manager_dashboard": "Loading Customer Manager Dashboard...",
+    "loading_sales_manager_dashboard": "Loading Sales Manager Dashboard...",
+    "loading_user_dashboard": "Loading User Dashboard...",
+    "stats": {
+      "totalTickets": "Total Tickets",
+      "newTickets": "New Tickets",
+      "inProgress": "In Progress",
+      "resolved": "Resolved"
+    },
+    "tickets": {
+      "search": "Search tickets...",
+      "filters": {
+        "status": "Status",
+        "priority": "Priority",
+        "category": "Category",
+        "department": "Department"
+      },
+      "status": {
+        "new": "New",
+        "in_progress": "In Progress",
+        "waiting_customer": "waiting customer",
+        "on_hold": "On Hold",
+        "resolved": "Resolved",
+        "rejected": "Rejected",
+        "reopened": "Reopened",
+        "escalated": "Escalated"
+      },
+      "priority": {
+        "high": "High",
+        "middle": "Middle",
+        "low": "Low"
+      },
+      "department": {
+        "sales": "Sales",
+        "sales_ue": "Sales UE",
+        "sales_sth": "Sales STH",
+        "service": "Service"
+      },
+      "category": {
+        "technical": "Technical",
+        "billing": "Billing",
+        "feature_request": "Feature Request",
+        "bug_report": "Bug Report",
+        "support": "Support"
+      },
+      "table": {
+        "id": "ID",
+        "title": "Title",
+        "customer": "Customer",
+        "status": "Status",
+        "priority": "Priority",
+        "department": "Department",
+        "category": "Category",
+        "assignedTo": "Assigned To",
+        "unassigned": "Unassigned",
+        "created": "Created",
+        "actions": "Actions",
+        "view": "View",
+        "assign": "Assign",
+        "description": "Description",
+        "loading": "Loading ticket details...",
+        "no_description": "No description available",
+        "no_attachments": "No attachments available",
+        "no_related_tickets": "No related tickets available",
+        "no_activity": "No activity recorded",
+        "activityLog": "Activity Log",
+        "attachments": "Attachments",
+        "size": "KB",
+        "noAttachments": "No attachments found",
+        "selectTicketManager": "Select Ticket Manager"
+      },
+      "activityLog": {
+        "title": "Activity Log",
+        "action": "Action",
+        "updatedValue": "Updated Value",
+        "previousValue": "Previous Value",
+        "noActivity": "No activity recorded"
+      },
+      "attachments": {
+        "title": "Attachments",
+        "size": "KB",
+        "noAttachments": "No attachments found"
+      }
+    },
+    "buttons": {
+      "create": "Create",
+      "createTicket": "Create Ticket",
+      "createManager": "Create Manager",
+      "createUser": "Create User",
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "save": "Save Changes",
+      "download": "Download",
+      "HelpCenter": "Help Center",
+      "TicketSystem": "Ticket System",
+      "DataProtection": "Data Protection",
+      "TermsAndCondition": "Terms And Condition",
+      "M-Desk":"M-Desk",
+      "YourTickets": "Your Tickets",
+      "AllUsers": "All Users",
+      "Login": "LOG IN",
+      "Signup": "SIGN UP",
+      "How": "How can we help you?",
+      "Search": "Search",
+      "Quantial":"Quantial",
+      "Allrightsreserved":"All rights reserved.",
+      "LoadingAdmin": "Loading Admin Dashboard..."
+      
+    },
+    "modal": {
+      "createTicket": "Create New Ticket",
+      "createNewTicket": "Create New Ticket",
+      "createNewUser": "Create New User",
+      "assignTicket": "Assign Ticket",
+      "editTicket": "Edit Ticket",
+      "viewTicket": "Ticket Details",
+      "createManager": "Create New Manager",
+      "createNewManager": "Create New Manager",
+      "createUser": "Create New User",
+       "userFirstName" : "First Name",
+        "userFirstNamePlaceholder" : "Enter first name" ,
+        "userLastName" : "Last Name" , 
+        "userLastNamePlaceholder" : "Enter last name",
+        "userEmailAddress" : "Email" , 
+        "userEmailAddressPlaceholder" : "Enter email address" ,
+        "editUser"  : "Edit User"
+,
+      "ticketDetails": {
+        "title": "Ticket Details",
+        "ticketId": "Ticket ID",
+        "description": "Description",
+        "status": "Status",
+        "priority": "Priority",
+        "category": "Category",
+        "department": "Department",
+        "assignedTo": "Assigned To",
+        "created": "Created",
+        "solution": "Solution",
+        "feedback": "Feedback",
+        "relatedTickets": "Related Tickets",
+        "unassigned": "Unassigned",
+        "noSolution": "No solution provided",
+        "noFeedback": "No feedback provided",
+        "internalNotes":"Internal Notes",
+        "customer": "Customer",
+        "none": "None",
+        "attachments": {
+          "title": "Attachments",
+          "size": "KB",
+          "noAttachments": "No attachments available for this ticket"
+        }
+       
+      }
+    },
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "Enter ticket title",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter ticket description",
+      "priority": "Priority",
+      "priorityPlaceholder": "Select Priority",
+      "customerCompany": "Customer Company",
+      "customerNumberValidationError" : "Please enter a valid customer phone number",
+      "customerCompanyPlaceholder": "Enter customer company",
+      "customerName": "Customer Name",
+      "customerNamePlaceholder": "Enter customer name",
+      "customerPhone": "Customer Phone",
+      "customerPhonePlaceholder": "Enter phone number",
+      "customerEmail": "Customer Email",
+      "customerEmailPlaceholder": "Enter customer email",
+      "category": "Category",
+      "categoryPlaceholder": "Select Category",
+      "department": "Department",
+      "departmentPlaceholder": "Select Department",
+      "selectDepartment": "Select Department",
+      "selectPriority": "Select Priority",
+      "relatedTickets": "Related Tickets",
+      "relatedTicketsPlaceholder": "Select Related Tickets",
+      "internalNotes": "Internal Notes",
+      "internalNotesPlaceholder": "Enter internal notes",
+      "attachments": "Attachments",
+      "chooseFiles": "Choose Files",
+      "noTickets": "No related tickets available",
+      "no_description": "No description available",
+      "no_attachments": "No attachments available",
+      "no_related_tickets": "No related tickets available",
+      "no_activity": "No activity recorded",
+      "notes": "Notes" , 
+
+      "streetPlaceholder" : "Enter street address",
+      "zipPlaceholder"  :"Enter Zip",
+      "cityPlaceholder" : "Enter City",
+      "customerNumberPlaceHolder" : "Enter customer number",
+      "street" : "Street" , 
+      "zip_code" : "Zip Code" , 
+      "city" : "City",
+      "customer_number" : "Customer Number" ,
+      "Phone" : "Phone"
+    },
+    "users": {
+      "table": {
+        "id": "ID",
+        "name": "Name",
+        "email": "Email",
+        "role": "Role",
+        "createdAt": "Created At",
+        "actions": "Actions"
+      },
+      "roles": {
+        "user": "User",
+        "selectRole": "Select Role",
+        "ticket_manager": "Ticket Manager",
+        "customer_manager": "Customer Manager",
+        "sales_manager": "Sales Manager",
+        "admin": "Administrator"
+      },
+      "stats": {
+        "totalUsers": "Total Users",
+        "regularUsers": "Regular Users",
+        "ticketManagers": "Ticket Managers",
+        "salesManagers": "Sales Managers",
+        "customerManagers": "Customer Managers"
+      }
+    }
+  },
+  "ticketForm": {
+    "title": "Create New Ticket",
+    "fields": {
+      "title": "Title",
+      "description": "Description",
+      "priority": {
+        "label": "Priority",
+        "high": "High",
+        "middle": "Middle",
+        "low": "Low"
+      },
+      "category": {
+        "label": "Category",
+        "technical": "Technical",
+        "billing": "Billing",
+        "feature_request": "Feature Request",
+        "bug_report": "Bug Report",
+        "support": "Support"
+      },
+      "customer": {
+        "company": "Company Name",
+        "name": "Contact Person",
+        "phone": "Phone Number",
+        "email": "Email"
+      },
+      "internalNotes": "Internal Notes",
+      "insideForm": {
+        "Enter_full_name": "Enter full name",
+        "Enter_email_address": "Enter email address",
+        "Enter_password": "Enter password"
+      }
+    },
+    "buttons": {
+      "create": "Create Ticket",
+      "cancel": "Cancel"
+    }
+  },
+  "passwordModal": {
+    "title": "Change Password",
+    "currentPassword": "Current Password",
+    "currentPasswordPlaceholder" : "Enter current password" , 
+    "newPassword": "New Password",
+    "newPasswordPlaceholder" : "Enter new password" ,
+    "confirmPassword": "Confirm New Password",
+    "confirmPasswordPlaceholder" : "Enter confirm password" , 
+
+    "buttons": {
+      "change": "Change Password",
+      "cancel": "Cancel"
+    }
+  },
+  "common": {
+    "required": "Required",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "success": "Success",
+    "error": "Error"
+  },
+  "sidebar": {
+    "title": "Ticket Management System",
+    "admin": {
+      "dashboard": "Ticket System",
+      "users": "Users",
+      "helpcenter": "Help Center",
+      "Knowledge": "Knowledge",
+      "Marketing": "Marketing",
+      "Trucks": "Trucks"
+    },
+    "ticketManager": {
+      "dashboard": "Ticket System"
+    },
+    "customerManager": {
+      "dashboard": "Ticket System"
+    },
+    "salesManager": {
+      "dashboard": "Ticket System"
+    },
+    "user": {
+      "dashboard": "Ticket System"
+    }
+  },
+  "errors": {
+    "authRequired": "Authentication required",
+    "fetchTickets": "Failed to fetch tickets",
+    "invalidPhone": "Please enter a valid 10-digit phone number",
+    "invalidEmail": "Please enter a valid email address",
+    "loadRelatedTickets": "Failed to load related tickets"
+  },
+  "pagination": {
+    "page": "Page",
+    "previous": "Previous",
+    "next": "Next",
+    "showing": "Showing",
+    "tickets": "Tickets",
+    "of": "of",
+    "total": "Total",
+    "users": "Users"
+  },
+
+  "detail_view" : {
+    "ticket_details" : "Ticket Detail", 
+    "activity_logs" : "Activity Logs",
+    "attachments" : "Attachments",
+    "comments" : "Comments",
+    "write_a_comment" : "Write a comment",
+    "edit_status" : "Edit Status",
+    "action" : "action" ,
+    "changed_by" : "Changed By",
+    "updated_value" : "Updated Value",
+    "time" : "Time",
+    "save" : "Save",
+    "saving" : "Saving" 
+
+
+  },
+  "empty_validations" : {
+    "validation" : "please fill out this field"
+  },
+  "loadingMessage" : {
+    "salesManager" : "Loading sales manager dashboard ...",
+    "creatingTicket" : "Creating Ticket ..."
+  },
+  "users" : {
+    "users" : "Users" 
+  }
+  ,
+  "timestamps" : {
+    "created" : "Created",
+    "updated" : "Updated" 
+
+  },
+  "newPasswordModal" : {
+    "resetPassword" : "Reset Password" , 
+    "newPasswordPlaceholder" : "Enter new password" , 
+    "newPasswordValidation" : "Password must include uppercase, lowercase, number, and special character" , 
+    "confirmPasswordValidation" : "Confirm Password" , 
+    "BackToLogin" : "Back to login", 
+    "resting" : "Reseting",
+    "errorMessage" : "Something went wrong" ,
+    "successMessage" : "Password reset successfull"
+  },
+  "resetPasswordModal" : {
+    "resetPassword" : "Reset Password" , 
+    "emailPlaceHolder" : "Enter your email" ,
+    "errorMessage" : "Something went wrong",  
+    "resetPasswordBtn" : "Reset my password" , 
+    "backToLoginBtn" : "Back to login",
+    "successMessage" : "Password reset instruction sent to your mail",
+    "sending" : "Sending" , 
+    "ResetMyPasswordBtn" : "Reset My Password"
+  },
+  "HomePage" : {
+    "viewProductsBtn" : "View Products" , 
+    "centerHeader" : "A high quality Bootstrap 4 template for your digital products with help center"
+  },
+  "attachment" : {
+    "attachFile"  : "Upload attachment"
+  },
+  "LoginModal" : {
+    "loginBtn" : "Log In" , 
+    "emailPlaceHolder"  :"Enter your email" , 
+    "passwordPlaceholder" : "Enter your password" , 
+    "errorMessage" : "Something went wrong" , 
+    "signUpBtn" : "Sign Up" , 
+    "logginIn" : "Logging in" , 
+    "resetPassword" : "Reset your password" 
+  },
+  "signUpModal" : {
+    "signUp" : "Sign Up" ,
+    "firstNamePlaceholder" : "Enter your first name" , 
+    "lastNamePlaceholder" : "Enter your last name" ,
+    "organizationNamePlaceholder" : "Enter your organization" ,
+    "emailPlaceHolder" : "Enter your email" , 
+    "passwordPlaceholder" : "Enter your password" ,
+    "confirmPasswordPlaceholder" : "confirm password",
+    "errorMessage" : "Something went wrong",
+    "successMessage" : "register successfull" , 
+    "signingUp" : "Signing Up" ,
+    "alreadyHaveAccount" : "Already have an account",
+    "LoginBtn" : "Login"
+
+  }
+} 

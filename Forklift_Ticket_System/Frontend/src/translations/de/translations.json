@@ -1,0 +1,429 @@
+{
+  "navbar": {
+    "dashboard": "Armaturenbrett",
+    "createTicket": "Ticket erstellen",
+    "changePassword": "Passwort ändern",
+    "logout": "Abmelden",
+    "profile": {
+      "role": "Rolle",
+      "email": "E-Mail"
+    }
+  },
+  "dashboard": {
+    "adminTitle": "Admin-Armaturenbrett",
+    "ticket_managerTitle": "Ticket-Manager-Armaturenbrett",
+    "customer_managerTitle": "Kundenmanager-Armaturenbrett",
+    "sales_managerTitle": "Vertriebsmanager-Armaturenbrett",
+    "userTitle": "Benutzer-Armaturenbrett",
+    "title": "Armaturenbrett",
+    "stats": {
+      "totalUsers": "Gesamte Benutzer",
+      "totalTickets": "Gesamttickets",
+      "newTickets": "Neue Tickets",
+      "inProgress": "im Gange",
+      "resolved": "gelöst"
+    },
+    "tickets": {
+      "search": "Tickets suchen...",
+      "filters": {
+        "status": "Status",
+        "priority": "Priorität",
+        "category": "Kategorie",
+        "department": "Abteilung",
+        "assigned": "Zugewiesen an",
+        "unassigned": "Nicht zugewiesen"
+      },
+      "status": {
+        "new": "Neu",
+        "in_progress": "im Gange",
+        "waiting_customer": "Warten auf Kunden",
+        "on_hold": "Angehalten",
+        "resolved": "Gelöst",
+        "rejected": "Abgelehnt",
+        "reopened": "Wiedereröffnet",
+        "escalated": "Eskaliert"
+      },
+      "priority": {
+        "high": "Hoch",
+        "medium": "Mittel",
+        "low": "Niedrig"
+      },
+      "department": {
+        "sales": "Vertrieb",
+        "sales_ue": "Vertrieb UE",
+        "sales_sth": "Vertrieb STH",
+        "service": "Service"
+      },
+      "category": {
+        "technical": "Technisch",
+        "billing": "Abrechnung",
+        "feature_request": "Funktionsanfrage",
+        "bug_report": "Fehlerbericht",
+        "support": "Support"
+      },
+      "table": {
+        "id": "ID",
+        "customer": "Kunde",
+        "title": "Titel",
+        "status": "Status",
+        "priority": "Priorität",
+        "department": "Abteilung",
+        "category": "Kategorie",
+        "assignedTo": "Zugewiesen an",
+        "created": "Erstellt",
+        "actions": "Aktionen",
+        "unassigned": "Nicht zugewiesen",
+        "assign": "Zuweisen",
+        "no_managers": "Keine Ticket-Manager verfügbar",
+        "view": "Sicht",
+        "description": "Beschreibung",
+        "loading": "Ticket-Details werden geladen...",
+        "no_description": "Keine Beschreibung verfügbar",
+        "no_attachments": "Keine Anhänge verfügbar",
+        "no_related_tickets": "Keine verwandten Tickets verfügbar",
+        "no_activity": "Noch keine Aktivität aufgezeichnet",
+        "activityLog": "Aktivitätsprotokoll",
+        "attachments": "Anhänge",
+        "size": "KB",
+        "noAttachments": "Keine Anhänge gefunden",
+        "selectTicketManager": "Ticket-Manager auswählen"
+      },
+      "attachments": {
+        "title": "Anhänge",
+        "noAttachments": "Keine Anhänge gefunden",
+        "size": "KB"
+      },
+      "activityLog": {
+        "title": "Aktivitätsprotokoll",
+        "noActivity": "Noch keine Aktivität aufgezeichnet",
+        "action": "Aktion",
+        "updatedValue": "Aktualisierter Wert",
+        "previousValue": "Vorheriger Wert"
+      }
+    },
+    "buttons": {
+      "create": "Erstellen",
+      "createManager": "Manager erstellen",
+      "createUser": "Benutzer erstellen",
+      "view": "Details anzeigen",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "cancel": "Abbrechen",
+      "save": "Änderungen speichern",
+      "createTicket": "Ticket erstellen",
+      "download": "Herunterladen",
+      "HelpCenter": "Hilfecenter",
+      "TicketSystem": "Ticketsystem",
+      "DataProtection": "Datenschutz",
+      "TermsAndCondition": "Allgemeine Geschäftsbedingungen",
+      "M-Desk":"M-Schreibtisch",
+      "YourTickets": "Ihre Tickets",
+      "AllUsers": "Alle Benutzer",
+      "Login": "Einloggen",
+      "Signup": "Melden Sie",
+      "How": "Wie können wir Ihnen helfen?",
+      "Search": "SUCHEN",
+      "Quantial":"Quantität",
+      "Allrightsreserved":"Alle Rechte vorbehalten.",
+      "LoadingAdmin": "Admin-Dashboard wird geladen …"
+     
+    },
+    "modal": {
+      "createTicket": "Neues Ticket erstellen",
+      "createNewTicket": "Neues Ticket erstellen",
+      "assignTicket": "Ticket zuweisen",
+      "editTicket": "Ticket bearbeiten",
+      "viewTicket": "Ticket-Details",
+      "createManager": "Neuen Manager erstellen",
+      "createUser": "Neuen Benutzer erstellen",
+      "createNewUser": "Neuen Benutzer erstellen",
+      "createNewManager": "Neuen Manager erstellen",
+      "userFirstName": "Vorname",
+      "userFirstNamePlaceholder": "Vornamen eingeben",
+      "userLastName": "Nachname",
+      "userLastNamePlaceholder": "Nachnamen eingeben",
+      "userEmailAddress": "E-Mail",
+      "userEmailAddressPlaceholder": "E-Mail-Adresse eingeben" ,
+      "editUser"  : "Benutzer bearbeiten",
+      "ticketDetails": {
+        "title": "Ticket-Details",
+        "ticketId": "Ticket-ID",
+        "description": "Beschreibung",
+        "status": "Status",
+        "priority": "Priorität",
+        "category": "Kategorie",
+        "department": "Abteilung",
+        "assignedTo": "Zugewiesen an",
+        "created": "Erstellt",
+        "solution": "Lösung",
+        "feedback": "Feedback",
+        "relatedTickets": "Verwandte Tickets",
+        "unassigned": "Nicht zugewiesen",
+        "noSolution": "Keine Lösung vorhanden",
+        "noFeedback": "Kein Feedback vorhanden",
+        "internalNotes":"Interne Notizen",
+        "customer": "Kunde",
+        "none": "Keine",
+        "attachments": {
+          "title": "Anhänge",
+          "size": "KB",
+          "noAttachments": "Keine Anhänge für dieses Ticket verfügbar"
+        }
+      }
+    },
+    "loading": "Ticket-Details werden geladen...",
+    "error": "Fehler beim Laden der Ticket-Details",
+    "retry": "Erneut versuchen",
+    "loading_ticket_manager_dashboard": "Ticket-Manager-Armaturenbrett wird geladen...",
+    "loading_customer_manager_dashboard": "Kundenmanager-Armaturenbrett wird geladen...",
+    "loading_sales_manager_dashboard": "Vertriebsmanager-Armaturenbrett wird geladen...",
+    "loading_user_dashboard": "Benutzer-Armaturenbrett wird geladen...",
+    "form": {
+      "title": "Titel",
+      "titlePlaceholder": "Tickettitel eingeben",
+      "description": "Beschreibung",
+      "descriptionPlaceholder": "Ticketbeschreibung eingeben",
+      "priority": "Priorität",
+      "priorityPlaceholder": "Priorität auswählen",
+      "customerCompany": "Kundenunternehmen",
+      "customerCompanyPlaceholder": "Kundenunternehmen eingeben",
+      "customerName": "Kundenname",
+      "customerNamePlaceholder": "Kundennamen eingeben",
+      "customerPhone": "Telefonnummer",
+      "customerPhonePlaceholder": "Telefonnummer eingeben",
+      "customerNumberValidationError" : "Bitte geben Sie eine gültige Telefonnummer ein.",
+      "customerEmail": "Kunden-E-Mail",
+      "customerEmailPlaceholder": "Kunden-E-Mail eingeben (.com, .in, .uk,.eu,.de,.fr,.it,.es,.nl,.be,.se,.pl oder .io)",
+      "category": "Kategorie",
+      "categoryPlaceholder": "Kategorie auswählen",
+      "department": "Abteilung",
+      "departmentPlaceholder": "Abteilung auswählen",
+      "selectDepartment": "Abteilung auswählen",
+      "selectPriority": "Priorität auswählen",
+      "relatedTickets": "Verwandte Tickets",
+      "relatedTicketsPlaceholder": "Verwandte Tickets auswählen",
+      "internalNotes": "Interne Notizen",
+      "internalNotesPlaceholder": "Interne Notizen eingeben",
+      "attachments": "Anhänge",
+      "chooseFiles": "Dateien auswählen",
+      "noTickets": "Keine verwandten Tickets verfügbar",
+      "notes": "Notizen",
+
+      "streetPlaceholder" : "Geben Sie die Straße ein",
+      "zipPlaceholder"  :"Geben Sie die Postleitzahl ein",
+      "cityPlaceholder" : "Geben Sie die Stadt ein" , 
+      "customerNumberPlaceHolder" : "Kundennummer eingeben" , 
+      "street" : "Straße" , 
+      "zip_code" : "PLZ" , 
+      "city" : "Stadt" , 
+      "customer_number" : "Kundennummer",
+      "Phone" : "Telefon"
+
+
+    },
+    "users": {
+      "table": {
+        "id": "ID",
+        "name": "Name",
+        "email": "E-Mail",
+        "role": "Rolle",
+        "createdAt": "Erstellt am",
+        "actions": "Aktionen"
+      },
+      "roles": {
+        "user": "Benutzer",
+        "selectRole": "Rolle auswählen",
+        "ticket_manager": "Ticket-Manager",
+        "customer_manager": "Kunden-Manager",
+        "sales_manager": "Vertriebsmanager",
+        "admin": "Administrator"
+      },
+      "stats": {
+        "regularUsers": "Normale Benutzer",
+        "ticketManagers": "Ticket-Manager",
+        "salesManagers": "Vertriebsmanager",
+        "customerManagers": "Kunden-Manager"
+      }
+    }
+  },
+  "ticketForm": {
+    "title": "Neues Ticket erstellen",
+    "fields": {
+      "title": "Titel",
+      "description": "Beschreibung",
+      "priority": {
+        "label": "Priorität",
+        "high": "Hoch",
+        "medium": "Mittel",
+        "low": "Niedrig"
+      },
+      "category": {
+        "label": "Kategorie",
+        "technical": "Technisch",
+        "billing": "Abrechnung",
+        "feature_request": "Funktionsanfrage",
+        "bug_report": "Fehlerbericht",
+        "support": "Support"
+      },
+      "customer": {
+        "company": "Firmenname",
+        "name": "Kontaktperson",
+        "phone": "Telefonnummer",
+        "email": "E-Mail"
+      },
+      "insideForm": {
+        "Enter_full_name": "Name eingeben",
+        "Enter_email_address": "E-Mail eingeben",
+        "Enter_password": "Passwort eingeben"
+      },
+      "internalNotes": "Interne Notizen"
+    },
+    "buttons": {
+      "create": "Ticket erstellen",
+      "cancel": "Abbrechen"
+    }
+  },
+  "passwordModal": {
+  "title": "Passwort ändern",
+  "currentPassword": "Aktuelles Passwort",
+  "currentPasswordPlaceholder": "Aktuelles Passwort eingeben",
+  "newPassword": "Neues Passwort",
+  "newPasswordPlaceholder": "Neues Passwort eingeben",
+  "confirmPassword": "Neues Passwort bestätigen",
+  "confirmPasswordPlaceholder": "Bestätigen Sie das neue Passwort",
+    "buttons": {
+      "change": "Passwort ändern",
+      "cancel": "Abbrechen"
+    }
+  },
+  "common": {
+    "required": "Erforderlich",
+    "loading": "Laden...",
+    "noData": "Keine Daten verfügbar",
+    "success": "Erfolg",
+    "error": "Fehler"
+  },
+  "sidebar": {
+    "title": "Ticket-Management-System",
+    "admin": {
+      "dashboard": "TicketSystem",
+      "users": "Benutzer",
+      "helpcenter": "Hilfecenter",
+      "Knowledge": "Wissen",
+      "Marketing": "Marketing",
+      "Trucks": "LKWs"
+    },
+    "ticketManager": {
+      "dashboard": "TicketSystem"
+    },
+    "customerManager": {
+      "dashboard": "TicketSystem"
+    },
+    "salesManager": {
+      "dashboard": "TicketSystem"
+    },
+    "user": {
+      "dashboard": "TicketSystem"
+    }
+  },
+  "errors": {
+    "authRequired": "Authentifizierung erforderlich",
+    "fetchTickets": "Fehler beim Abrufen der Tickets",
+    "invalidPhone": "Bitte geben Sie eine gültige 10-stellige Telefonnummer ein",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "loadRelatedTickets": "Fehler beim Laden verwandter Tickets"
+  },
+  "pagination": {
+    "page": "Seite",
+    "previous": "Vorherige",
+    "next": "Nächste",
+    "showing": "Angezeigt",
+    "tickets": "Tickets",
+    "of": "von",
+    "total": "Gesamt",
+    "users": "Benutzer"
+  },
+  "detail_view" : {
+    "ticket_details" : "Ticketdetails",
+    "activity_logs" : "Aktivitätsprotokolle",
+    "attachments" : "Anhänge",
+    "comments" : "Kommentare",
+    "write_a_comment" : "Schreiben Sie einen Kommentar",
+    "edit_status" : "Status bearbeiten", 
+    "action" : "Aktion" ,
+    "changed_by" : "Geändert von",
+    "updated_value" : "Aktualisierter Wert",
+    "time" : "Zeit",
+    "save" : "Speichern",
+    "saving" : "Sparen" 
+    
+
+  },
+  "empty_validations" : {
+    "validation" : "Bitte füllen Sie dieses Feld aus"
+  }
+  ,
+  "loadingMessage" : {
+    "salesManager" : "Dashboard des Vertriebsleiters wird geladen ...",
+    "creatingTicket" : "Ticket erstellen ..."
+  }
+  ,
+  "users" : {
+    "users" : "Benutzer" 
+  },
+   "timestamps" : {
+    "created" : "Erstellt",
+    "updated" : "Aktualisiert" 
+
+  },
+  "newPasswordModal" : {
+  "resetPassword" : "Passwort zurücksetzen",
+  "newPasswordPlaceholder" : "Neues Passwort eingeben",
+  "newPasswordValidation" : "Das Passwort muss Groß- und Kleinbuchstaben, eine Zahl und ein Sonderzeichen enthalten",
+  "confirmPasswordValidation" : "Passwort bestätigen",
+  "BackToLogin" : "Zurück zum Login",
+  "resting" : "Wird zurückgesetzt",
+  "errorMessage" : "Etwas ist schiefgelaufen",
+  "successMessage" : "Passwort erfolgreich zurückgesetzt"
+},
+"resetPasswordModal" : {
+  "resetPassword" : "Passwort zurücksetzen",
+  "emailPlaceHolder" : "Gib deine E-Mail-Adresse ein",
+  "errorMessage" : "Etwas ist schiefgelaufen",
+  "resetPasswordBtn" : "Mein Passwort zurücksetzen",
+  "backToLoginBtn" : "Zurück zum Login",
+  "successMessage" : "Anweisungen zum Zurücksetzen des Passworts wurden an Ihre E-Mail-Adresse gesendet",
+  "sending": "Senden",
+  "ResetMyPasswordBtn": "Passwort zurücksetzen"
+},
+"HomePage" : {
+  "viewProductsBtn" : "Produkte anzeigen",
+  "centerHeader" : "Eine hochwertige Bootstrap-4-Vorlage für Ihre digitalen Produkte mit Hilfezentrum"
+},
+"attachment" : {
+    "attachFile"  : "Anhang hochladen"
+  },
+  "LoginModal": {
+  "loginBtn": "Einloggen",
+  "emailPlaceHolder": "Gib deine E-Mail ein",
+  "passwordPlaceholder": "Gib dein Passwort ein",
+  "errorMessage": "Etwas ist schiefgelaufen",
+  "signUpBtn": "Registrieren",
+  "logginIn": "Anmeldung läuft",
+  "resetPassword": "Setze dein Passwort zurück"
+},
+"signUpModal": {
+  "signUp": "Registrieren",
+  "firstNamePlaceholder": "Gib deinen Vornamen ein",
+  "lastNamePlaceholder": "Gib deinen Nachnamen ein",
+  "organizationNamePlaceholder": "Gib deine Organisation ein",
+  "emailPlaceHolder": "Gib deine E-Mail ein",
+  "passwordPlaceholder": "Gib dein Passwort ein",
+  "confirmPasswordPlaceholder": "Passwort bestätigen",
+  "errorMessage": "Etwas ist schiefgelaufen",
+  "successMessage": "Registrierung erfolgreich",
+  "signingUp": "Registrierung läuft",
+  "alreadyHaveAccount": "Du hast bereits ein Konto",
+  "LoginBtn": "Einloggen"
+}
+} 
