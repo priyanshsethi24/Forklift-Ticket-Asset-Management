@@ -1,0 +1,61 @@
+version: '3.8'
+ 
+services:
+  db:
+    image: postgres:14
+    ports:
+      - "${POSTGRES_PORT}:5432"  # Map the port using the .env variable
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - ticket_management_network
+ 
+  backend:
+    image: registry.gitlab.com/devmanufactur/ticket-asset-management/backend:backend-c14072b9
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
+    ports:
+      - "8000:8000"
+    command: /app/wait-for-it.sh db:5432 -- python manage.py runserver 0.0.0.0:8000
+    networks:
+      - ticket_management_network
+ 
+  frontend:
+    image: registry.gitlab.com/devmanufactur/ticket-asset-management/frontend:frontend-c14072b9
+    ports:
+      - "3000:3000"
+    networks:
+      - ticket_management_network
+      
+  netdata:
+    container_name: netdata
+    image: netdata/netdata:latest
+    ports:
+      - "19999:19999"
+    restart: unless-stopped
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - apparmor:unconfined
+    volumes:
+      - /etc/passwd:/host/etc/passwd:ro
+      - /etc/group:/host/etc/group:ro
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    networks:
+      - ticket_management_network
+
+ 
+volumes:
+  postgres_data:
+ 
+networks:
+  ticket_management_network:
+    driver: bridge
