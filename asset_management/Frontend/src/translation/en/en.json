@@ -1,0 +1,80 @@
+{
+  "dashboard": {
+    "totalAsset": "Total Asset",
+    "underMaintenance": "Under Maintenance",
+    "usedAssets": "Used Assets",
+    "shortTermHire": "Short Term Hired"
+  },
+  "filters": {
+    "status": "Status",
+    "new": "New",
+    "used": "Used",
+    "shortTermHire": "Short Term Hire"
+  },
+  "search": {
+    "placeholder": "Search by Asset ID or Description..."
+  },
+  "buttons": {
+    "createAsset": "Create Asset",
+    "view": "View",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "table": {
+    "columns": {
+      "assetId": "Asset ID",
+      "description": "Description",
+      "status": "Status",
+      "brand": "Brand",
+      "model": "Model",
+      "warehouse": "Warehouse",
+      "purchaseDate": "Purchase Date",
+      "operatingHour": "Operating Hour",
+      "actions": "Actions"
+    }
+  },
+  "modals": {
+    "viewAsset": {
+      "title": "Asset Details",
+      "brand": "Brand",
+      "model": "Model",
+      "description": "Description",
+      "warehouse": "Warehouse",
+      "yearOfManufacture": "Year of Manufacture",
+      "purchaseDate": "Purchase Date",
+      "battery": "Battery",
+      "batteryChargeDueDate": "Battery Charge Due Date",
+      "capacity": "Capacity",
+      "operatingHours": "Operating Hours",
+      "warrantyExpiration": "Warranty Expiration",
+      "fuelConsumption": "Fuel Consumption",
+      "leaseCompany": "Lease Company",
+      "machineCategory": "Machine Category",
+      "maintenanceCosts": "Maintenance Costs",
+      "operationalStatus": "Operational Status",
+      "purchasePrice": "Purchase Price",
+      "residualValue": "Residual Value",
+      "serialNumber": "Serial Number",
+      "status": "Status",
+      "totalOperatingCosts": "Total Operating Costs",
+      "uvvDueDate": "UVV Due Date",
+      "fuelType": "Fuel Type",
+      "notes": "Notes",
+      "fuelTypes": {
+        "diesel": "Diesel",
+        "electric": "Electric",
+        "hybrid": "Hybrid"
+      }
+    },
+    "deleteConfirmation": {
+      "message": "Are you sure you want to delete this asset?",
+      "success": "Asset deleted successfully!",
+      "failure": "Failed to delete asset. Please try again."
+    },
+    "loading": "Loading assets..."
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next"
+  }
+}

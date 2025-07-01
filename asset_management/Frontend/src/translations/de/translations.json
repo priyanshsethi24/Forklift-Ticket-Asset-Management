@@ -1,0 +1,1395 @@
+{
+  "dashboard": {
+    "title": "Armaturenbrett",
+    "customerManagerTitle": "Kunden-Manager Dashboard",
+    "assetManagerTitle": "Anlagen-Manager Dashboard",
+    "warehouseManagerTitle": "Lagerverwalter-Dashboard",
+    "financeManagerTitle": "Finanzmanager-Dashboard",
+    "totalAssets": "Gesamte Anlagen",
+    "underMaintenance": "In Wartung",
+    "usedAssets": "Genutzte Anlagen",
+    "shortTermHired": "Kurzzeitvermietung",
+    "customerManager": {
+      "totalCustomers": "Verwaltete Kunden Gesamt",
+      "totalRevenue": "Akzeptierter Gesamtumsatz",
+      "acceptedOffers": "Akzeptierte Angebote",
+      "pendingOffers": "Ausstehende Angebote"
+    },
+    "warehouseManager": {
+      "totalAssets": "Gesamte Anlagen",
+      "totalMaintenanceCosts": "Gesamte Wartungskosten",
+      "assetsUnderMaintenance": "Anlagen in Wartung",
+      "capacity": "Kapazität"
+    },
+    "financeManager": {
+      "totalPurchasePrice": "Gesamter Kaufpreis",
+      "totalMaintenanceCosts": "Gesamte Wartungskosten",
+      "totalInsuranceCosts": "Gesamte Versicherungskosten",
+      "totalDepreciation": "Gesamte Abschreibung"
+    },
+    "errors": {
+      "fetchFailed": "Fehler beim Laden der Dashboard-Daten",
+      "required": "Dieses Feld ist erforderlich",
+      "mandatoryField": "Das Feld {{field}} ist erforderlich."
+    }
+  },
+  "createAsset": {
+    "form": {
+      "title": "Neues Asset erstellen",
+      "brand": "Marke",
+      "model": "Modell",
+      "description": "Beschreibung",
+      "purchaseDate": "Kaufdatum",
+      "warehouse": "Lager",
+      "yearOfManufacture": "Baujahr",
+      "battery": "Batterie",
+      "batteryChargeDate": "Fälligkeit Batterieladung",
+      "capacity": "Kapazität",
+      "operatingHours": "Betriebsstunden",
+      "warrantyExpiration": "Garantieablaufdatum",
+      "fuelType": "Kraftstoffart",
+      "notes": "Notizen",
+      "batteryDescription": "Batteriebeschreibung",
+      "leaseCompany": "Leasingfirma",
+      "machineCategory": "Maschinenkategorie",
+      "maintenanceCosts": "Wartungskosten",
+      "operationalStatus": "Betriebsstatus",
+      "purchasePrice": "Kaufpreis",
+      "residualValue": "Restwert",
+      "serialNumber": "Seriennummer",
+      "status": "Status",
+      "totalOperatingCosts": "Gesamtbetriebskosten",
+      "uvvDueDate": "UVV-Fälligkeitsdatum",
+      "priceType": "Preistyp",
+      "priceRentalDay": "Täglicher Mietpreis",
+      "priceRentalWeek": "Wöchentlicher Mietpreis",
+      "priceRentalMonth": "Monatlicher Mietpreis"
+    },
+      "placeholder": {
+    "enterUniqueID": "Eindeutige ID eingeben",
+    "enterAssetId": "Asset-ID eingeben",
+    "enterSerialNumber": "Seriennummer eingeben",
+    "enterPlatform": "Plattform eingeben",
+    "enterVisibleOption": "Sichtbarkeitsoption eingeben",
+    "enterCapacity": "Kapazität eingeben",
+    "enterMastType": "Masttyp eingeben",
+    "enterStatus": "Status eingeben",
+    "enterClassification": "Klassifizierung eingeben",
+    "enterFemClass": "FEM-Klasse eingeben",
+    "enterDriveType": "Antriebstyp eingeben",
+    "enterEngineType": "Motortyp eingeben",
+    "enterCurrency": "Währungstyp auswählen",
+    "enterTitle": "Titel eingeben",
+    "enterDescription": "Beschreibung eingeben",
+    "enterDescriptionTemp": "Temporäre Beschreibung eingeben",
+    "enterTemporaryDescription": "Temporäre Beschreibung eingeben",
+    "enterAvailableFrom": "Verfügbar ab eingeben",
+    "enterCurrentLocation": "Aktuellen Standort eingeben",
+    "enterLiftHeight": "Hubhöhe eingeben",
+    "enterSalesmen": "Verkäufer eingeben",
+    "enterAdGroup": "Anzeigengruppe eingeben",
+    "enterIdUrl": "ID-URL eingeben",
+    "enterType": "Typ eingeben",
+    "enterNettoAmountIn": "Betrag in {{currency}} eingeben",
+    "enterAmountIn": "Betrag in {{currency}} eingeben",
+    "enterCustomAttachment": "Benutzerdefinierte Anlage eingeben",
+    "dealerAttachmentNo": "Händler-Anlagenummer eingeben",
+    "dealerBatteryNo": "Händler-Batterienummer eingeben",
+    "dealerChargerNo": "Händler-Ladegerätenummer eingeben",
+    "dealerAccessPlatforms": "Händler-Zugangsplattformen-Nummer eingeben",
+    "enterManufacturer": "Hersteller eingeben",
+    "enterYearOfManufacture": "Baujahr eingeben",
+    "enterMachineIdDealer": "Maschinen-ID des Händlers eingeben",
+    "enterMachineSerialNo": "Maschinen-Seriennummer eingeben",
+    "enterMachineDescriptionTitle": "Maschinenbeschreibungstitel eingeben",
+    "enterMachineDescriptionSubtitle": "Maschinenbeschreibungsuntertitel eingeben",
+    "enterMachineDescriptionTemp": "Temporäre Maschinenbeschreibung eingeben",
+    "enterMachineAvailable": "Maschinenverfügbarkeit eingeben",
+    "enterRentalPricePerDay": "Mietpreis pro Tag eingeben",
+    "enterRentalPricePerWeek": "Mietpreis pro Woche eingeben",
+    "enterRentalPricePerMonth": "Mietpreis pro Monat eingeben",
+    "enterRentalPriceDescription": "Mietpreis-Beschreibung eingeben",
+    "enterTruckLocation": "LKW-Standort eingeben",
+    "enterMachineLength": "Maschinenlänge eingeben",
+    "enterMachineWidth": "Maschinenbreite eingeben",
+    "enterMachineHeight": "Maschinenhöhe eingeben",
+    "enterBasketLoad": "Korbbelastung eingeben",
+    "enterReachHorizontal": "Horizontale Reichweite eingeben",
+    "enterMachineWeight": "Maschinengewicht eingeben",
+    "enterClosedHeight": "Geschlossene Höhe eingeben",
+    "enterFreeHeight": "Freie Höhe eingeben",
+    "enterForkCarriage": "Gabelträger eingeben",
+    "enterForkLength": "Gabellänge eingeben",
+    "enterForks": "Gabeln eingeben",
+    "enterLoadCentre": "Lastschwerpunkt eingeben",
+    "priceNew": "Preis eingeben",
+    "enterTiresFront": "Vorderreifen eingeben",
+    "enterTiresFrontSize": "Vorderreifen-Größe eingeben",
+    "enterTiresRear": "Hinterreifen eingeben",
+    "enterTiresRearSize": "Hinterreifen-Größe eingeben",
+    "enterTwinTires": "Zwillingsreifen eingeben",
+    "entePriceNetto": "Nettopreis eingeben",
+    "enterSelectVisibleOption": "Sichtbarkeitsoption auswählen",
+    "enterSelectOption": "Option auswählen",
+    "enterPriceType": "Preistyp eingeben",
+    "enterRentalPriceDay": "Mietpreis pro Tag eingeben",
+    "enterRentalPriceWeek": "Mietpreis pro Woche eingeben",
+    "enterRentalPriceMonth": "Mietpreis pro Monat eingeben",
+    "enterBookValue": "Buchwert eingeben",
+    "enterDepreciationValue": "Abschreibungswert eingeben",
+    "enterResidualValueEndOfContract": "Restwert am Vertragsende eingeben",
+    "enterAcquisitionDate": "Anschaffungsdatum eingeben",
+    "enterTechnicalCondition": "Technischen Zustand eingeben",
+    "enterCondition": "Zustand eingeben",
+    "enterOpticalCondition": "Optischen Zustand eingeben",
+    "enterWorkingHeight": "Arbeitshöhe eingeben",
+    "enterBatteryVoltage": "Batteriespannung eingeben",
+    "enterBatteryCase": "Batteriegehäuse eingeben",
+    "enterBatteryCapacity": "Batteriekapazität eingeben",
+    "enterBatteryChargerType": "Batterieladegerätetyp eingeben",
+    "enterAdditionalEquipment": "Zusätzliche Ausstattung eingeben",
+    "enterDealerName": "Händlername eingeben",
+    "enterDealerPrice": "Händlerpreis eingeben",
+    "enterDealerPriceNetto": "Händler-Nettopreis eingeben",
+    "enterPriceDescription": "Preisbeschreibung eingeben",
+    "enterDealerStatus": "Händlerstatus eingeben",
+    "enterContactInformation": "Händler-Kontaktinformationen eingeben",
+    "enterDealerLocation": "Händlerstandort eingeben",
+    "enterDealerServiceBrands": "Händler-Servicemarken eingeben",
+    "enterDealerDescription": "Händlerbeschreibung eingeben",
+    "enterDealerLogoPicUrl": "Händler-Logo-URL eingeben",
+    "enterDealerId": "Händler-ID eingeben",
+    "enterDealerZip": "Händler-Postleitzahl eingeben",
+    "enterDealerCity": "Händlerstadt eingeben",
+    "enterDealerCountry": "Händlerland eingeben",
+    "enterDealerDetailUrl": "Händler-Detail-URL eingeben",
+    "enterDealerWebsite": "Händler-Website eingeben",
+    "enterDealerContactOwner": "Händler-Kontaktinhaber eingeben",
+    "enterDealerOwnerTel": "Telefonnummer des Händlers eingeben",
+    "enterDealerOwnerEmail": "E-Mail des Händlers eingeben",
+    "enterDealerOwnerLanguage": "Sprache des Händlers eingeben",
+    "enterDealerOwnenterDescriptionerCustom": "Benutzerdefinierten Händlerinhaber eingeben",
+    "enterDealerContact1Name": "Händler-Kontakt 1 Name eingeben",
+    "enterDealerContact1Tel": "Händler-Kontakt 1 Telefon eingeben",
+    "enterDealerContact1Email": "Händler-Kontakt 1 E-Mail eingeben",
+    "enterDealerContact1Language": "Händler-Kontakt 1 Sprache eingeben",
+    "enterDealerTrucksNo": "Händler-LKW-Nummer eingeben",
+    "enterDealerAttachmentNo": "Händler-Anlagenummer eingeben",
+    "enterDealerBatteryNo": "Händler-Batterienummer eingeben",
+    "enterDealerChargerNo": "Händler-Ladegerätenummer eingeben",
+    "enterDealerAccessPlatforms": "Händler-Zugangsplattformen-Nummer eingeben",
+    "enterDealerCleaningMachines": "Händler-Reinigungsmaschinen-Nummer eingeben",
+    "enterFinancialPartner": "Finanzpartner eingeben",
+    "enterFinancialContractClassification": "Finanzvertragsklassifizierung eingeben",
+    "enterFinancialContract": "Finanzvertrag eingeben",
+    "enterFinancialContractNo": "Finanzvertragsnummer eingeben",
+    "enterDurationInMonths": "Dauer in Monaten eingeben"
+    },
+    "placeholders": {
+      "enterBrand": "Marke eingeben",
+      "enterModel": "Modell eingeben",
+      "enterDescription": "Beschreibung eingeben",
+      "enterYearOfManufacture": "Baujahr eingeben",
+      "enterBattery": "Batterie eingeben",
+      "enterCapacity": "Kapazität eingeben",
+      "enterOperatingHours": "Betriebsstunden eingeben",
+      "enterNotes": "Notizen eingeben",
+      "enterBatteryDescription": "Batteriebeschreibung eingeben",
+      "enterFuelConsumption": "Kraftstoffverbrauch eingeben",
+      "enterLeaseCompany": "Leasingfirma eingeben",
+      "enterMachineCategory": "Maschinenkategorie eingeben",
+      "enterMaintenanceCosts": "Wartungskosten eingeben",
+      "enterOperationalStatus": "Betriebsstatus eingeben",
+      "enterPurchasePrice": "Kaufpreis eingeben",
+      "enterResidualValue": "Restwert eingeben",
+      "enterSerialNumber": "Seriennummer eingeben",
+      "enterTotalOperatingCosts": "Gesamtbetriebskosten eingeben",
+      "uvvDueDate": "UVV-Fälligkeitsdatum",
+      "enter": "Eingeben",
+      "enterAdGroup": "Anzeigengruppe eingeben"
+    },
+    "buttons": {
+      "save": "Speichern",
+      "cancel": "Abbrechen",
+      "confirm": "Bestätigen",
+      "addRecord": "Datensatz hinzufügen",
+      "HelpCenter": "Hilfecenter",
+      "TicketSystem": "Asset-System",
+      "DataProtection": "Datenschutz",
+      "TermsAndCondition": "Allgemeine Geschäftsbedingungen",
+      "M-Desk":"M-Schreibtisch",
+      "YourTickets": "Ihr Vermögenswert",
+      "AllUsers": "Alle Benutzer",
+      "Login": "Einloggen",
+      "Signup": "Melden Sie",
+      "How": "Wie können wir Ihnen helfen?",
+      "Search": "SUCHEN",
+      "Quantial":"Quantität",
+      "Allrightsreserved":"Alle Rechte vorbehalten.",
+      "LoadingAdmin": "Admin-Dashboard wird geladen …",
+      "Knowledge": "Wissen",
+      "Marketing": "Marketing",
+      "Trucks": "LKWs",
+      "Search By Id": "Suche nach Id..."
+    },
+    "status": {
+        "new": "Neu",
+        "used": "Gebraucht",
+        "shortTermHire": "Kurzfristige Miete"
+      },
+    "fuelTypes": {
+      "diesel": "Diesel",
+      "electric": "Elektrisch",
+      "hybrid": "Hybrid"
+    },
+    "errors": {
+      "warrantyExpirationFuture": "Das Garantieablaufdatum muss in der Zukunft liegen.",
+      "uvvDueDateFuture": "Das UVV-Fälligkeitsdatum muss in der Zukunft liegen.",
+      "batteryChargeDueDateFuture": "Das Fälligkeitsdatum der Batterieladung muss in der Zukunft liegen."
+    }
+  },
+  "common": {
+    "select": "Auswählen",
+    "actions": "Aktionen",
+    "searchPlaceholder": "Nach ID",
+    "searchPlaceholderCustomer": "Nach Kundenname",
+    "searchPlaceholderOffer": "Nach Angebot ID",
+    "loading": {
+      "assets": "Lade Anlagen...",
+      "data": "Lade Daten...",
+      "loading": "Lade Anlagendetails..."
+    },
+    "errors": {
+      "generic": "Ein Fehler ist aufgetreten",
+      "required": "Dieses Feld ist erforderlich",
+      "mandatoryField": "Das Feld {{field}} ist erforderlich."
+    },
+    "buttons": {
+      "save": "Speichern",
+      "cancel": "Abbrechen",
+      "confirm": "Bestätigen",
+      "addRecord": "Datensatz hinzufügen"
+    },
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "create": "Asset erstellen",
+    "salesReport": "Verkaufsbericht",
+    "warehouse": {
+      "createSuccess": "Lager erfolgreich erstellt!",
+      "createError": "Erstellung des Lagers fehlgeschlagen"
+    }
+  },
+  "assets": {
+    "title": "Anlagen-Manager",
+    "fields": {
+      "id": "Anlagen-ID",
+      "description": "Beschreibung",
+      "descriptionTemp": "Beschreibung Temp",
+      "currency": "Währung",
+      "status": "Status",
+      "brand": "Marke",
+      "model": "Modell",
+      "uniqueID": "Eindeutige ID",
+      "assetId": "Anlagen-ID",
+      "warehouse": "Lager",
+      "purchaseDate": "Kaufdatum",
+      "operatingHours": "Betriebsstunden",
+      "priority": "Priorität",
+      "category": "Kategorie",
+      "selectMastType": "Masttyp auswählen",
+      "selectStatus": "Status auswählen",
+      "selectClassification": "Klassifizierung auswählen",
+      "selectDriveType": "Antriebsart auswählen",
+      "selectCurrencyType": "Währungstyp auswählen",
+      "selectEngineType": "Motortyp auswählen",
+      "selectForkliftClass": "Gabelstaplerklasse auswählen",
+      "priceType": "Preistyp",
+      "priceDescription": "Preisbeschreibung",
+      "rentalPricePerDay": "Mietpreis pro Tag",
+      "rentalPricePerWeek": "Mietpreis pro Woche",
+      "rentalPricePerMonth": "Mietpreis pro Monat",
+      "rentalPriceDescription": "Mietpreisbeschreibung",
+      "liftHeight": "Hubhöhe",
+      "priceNew": "Preis",
+      "dealerPrice": "Händlerpreis",
+      "dealerPriceNetto": "Händlerpreis Netto",
+
+      "tireTypes": {
+        "cushion": "Kissen",
+        "pneumatic": "Luftreifen",
+        "polyurethane": "Polyurethan",
+        "solidrubber": "Vollgummi",
+        "superelastic": "Superelastisch"
+      },
+      "selectTireType": "Reifentyp auswählen",
+      "conditions": {
+        "new": "Neu",
+        "likenew": "Wie Neu",
+        "verygood": "Sehr Gut",
+        "good": "Gut",
+        "normal": "Normal",
+        "bad": "Schlecht",
+        "verybad": "Sehr Schlecht",
+        "poor": "Schlecht",
+        "verypoor": "Sehr Schlecht"
+      },
+      "opticalConditions": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6"
+      },
+      "explanation": {
+          "platform": "Wo LKWs angeboten werden",
+          "uniqueID": "Eindeutige ID",
+          "assetId": "Anlagen-ID",
+          "machineSerialNo": "Fahrgestellnummer",
+          "operatingHours": "Betriebsstunden",
+          "visible": "Sichtbar",
+          "date": "Datum",
+          "id": "ID der Plattformmaschine",
+          "dealerId": "ID der Maschine des Anbieters",
+          "detailUrl": "Detail-URL der Maschine",
+          "manufacturer": "Hersteller",
+          "yearOfManufacture": "Baujahr",
+          "priceNetto": "Preis Netto",
+          "capacity": "Kapazität in kg",
+          "mastType": "Masttyp",
+          "liftHeight": "Hubhöhe in mm",
+          "status": "Status des Fahrzeugs",
+          "classification": "Typklassifizierung",
+          "femClass": "FEM-Klasse",
+          "driveType": "Antriebsart",
+          "engineType": "Motortyp",
+          "title": "Maschinentitel",
+          "dealerPrice": "Händlerpreis",
+          "dealerPriceNetto": "Händlerpreis Netto",
+          "priceDescription": "Preisbeschreibung",
+          "rentalPricePerMonth": "Mietpreis pro Monat",
+          "rentalPriceDescription": "Mietpreisbeschreibung",
+          "temporaryDescription": "Referenzaufbereitung",
+          "availableFrom": "Verfügbar ab",
+          "currentLocation": "Aktueller Standort",
+          "salesmen": "Verkäufer",
+          "idUrl": "Detail-URL der Maschine",
+          "priceNew": "Preis",
+          "adGroup": "Anzeigengruppe",
+          "priceType": "Preistyp",
+          "price": "Mietpreis pro Tag in €",
+          "netPrice": "Mietpreis pro Woche in €",
+          "description": "Mietbeschreibung",
+          "rentalPricePerDay": "Mietpreis pro Tag",
+          "rentalPricePerWeek": "Mietpreis pro Woche",
+          "descriptionTemp": "",
+          "mediaFiles": "Mediendateien",
+          "currency": "Währungstyp",
+          "technicalCondition": "Technischer Zustand: neu, wie neu, sehr gut, gut, normal, schlecht, sehr schlecht",
+          "condition": "Technischer Zustand: neu, wie neu, sehr gut, gut, normal, schlecht, sehr schlecht",
+          "opticalCondition": "Optischer Zustand: 1, 2, 3, 4, 5, 6"
+        },
+    "platform": "Plattform",
+      "visible": "Sichtbar",
+      "machineSerialNo": "Seriennummer",
+      "date": "Datum",
+      "dealerId": "Händler-ID",
+      "manufacturer": "Hersteller",
+      "yearOfManufacture": "Baujahr",
+      "capacity": "Kapazität",
+      "mastType": "Masttyp",
+      "classification": "Klassifizierung",
+      "femClass": "FEM-Klasse",
+      "driveType": "Antriebsart",
+      "engineType": "Motortyp",
+      "title": "Titel",
+      "temporaryDescription": "Vorübergehende Beschreibung",
+      "availableFrom": "Verfügbar ab:",
+      "currentLocation": "Aktueller Standort",
+      "salesmen": "Verkäufer",
+      "idUrl": "ID-URL",
+      "adGroup": "Anzeigengruppe",
+      "type": "Typ",
+      "price": "Preis",
+      "netPrice": "Nettopreis",
+      "mediaFiles": "Medien Dateien",
+      "enterUniqueid": "Eindeutige ID eingeben",
+      "serialNumber": "Seriennummer",
+      "selectPlatform": "Plattform auswählen",
+      "selectCondition": "Zustand auswählen",
+      "selectEquipment": "Ausrüstung auswählen",
+      "selectAttachment": "Anhang auswählen",
+      "twinTires": "Zwillingsreifen",
+      "selectOption": "Option auswählen",
+      "yes": "Ja",
+      "no": "Nein",
+      "priceNetto": "Preis Netto"
+    },
+    "status": {
+    "New": "Neu",
+    "Used": "Gebraucht",
+    "Demo": "Demo",
+    "Rental": "Miete"
+  },
+  "filters": {
+    "status": "Status",
+    "priority": "Priorität",
+    "category": "Kategorie",
+    "all": "Alle"
+  },
+  "actions": {
+    "create": "Asset erstellen",
+    "edit": "Asset bearbeiten",
+    "delete": "Asset löschen",
+    "view": "Asset anzeigen",
+    "viewReport": "Bericht anzeigen",
+    "viewFinance": "Finanzen anzeigen",
+    "viewSales": "Verkäufe anzeigen"
+  },
+  "options": {
+  "dealerSearch": "Händlersuche",
+  "customerSearch": "Kundensuche",
+  "rentalDevice": "Mietgerät",
+  "homepage": "Startseite",
+  "manufacturerPage": "Herstellerseite",
+  "none": "Keine",
+  "standard": "Standard",
+  "duplex": "Duplex",
+  "triplex": "Triplex",
+  "quattro": "Quattro",
+  "telescopic": "Teleskopisch",
+  "demo": "Demo",
+  "rental": "Miete",
+  "new": "Neu",
+  "used": "Gebraucht",
+  "trailer": "Anhänger",
+  "tractor": "Traktor",
+  "manual_pallet_truck": "Manueller Hubwagen",
+  "high_lift_truck": "Hochhubwagen",
+  "gasoline_forklift": "Benzin-Gabelstapler",
+  "diesel_forklift": "Diesel-Gabelstapler",
+  "electric_3_wheel": "Elektrischer 3-Rad-Gabelstapler",
+  "electric_4_wheel": "Elektrischer 4-Rad-Gabelstapler",
+  "natural_gas_forklift": "Erdgas-Gabelstapler",
+  "reach_stacker": "Reach-Stacker",
+  "side_loader": "Seitenlader",
+  "other": "Andere",
+  "compact_forklift": "Kompakt-Gabelstapler",
+  "low_lift_truck": "Niederhubwagen",
+  "off_road_forklift": "Gelände-Gabelstapler",
+  "truck_mounted_forklift": "Lkw-montierter Gabelstapler",
+  "scissor_lift": "Scherenbühne",
+  "telescopic_forklift": "Teleskop-Gabelstapler",
+  "terminal_tractor": "Terminal-Traktor",
+  "lpg_forklift": "LPG-Gabelstapler",
+  "container_handler": "Containerstapler",
+  "reach_truck": "Schubmaststapler",
+  "narrow_aisle_truck": "Schmalgangstapler",
+  "standup_forklift": "Stand-Gabelstapler",
+  "pallet_truck_with_scale": "Hubwagen mit Waage",
+  "route_train_trailer": "Routenzug-Anhänger",
+  "four_way_side_loader": "Vier-Wege-Seitenlader",
+  "electric_platform_cart": "Elektrischer Plattformwagen",
+  "vertical_order_picker": "Vertikaler Kommissionierer",
+  "four_way_reach_truck": "Vier-Wege-Schubmaststapler",
+  "horizontal_order_picker": "Horizontaler Kommissionierer",
+  "battery": "Batterie",
+  "diesel": "Diesel",
+  "electric": "Elektrisch",
+  "lpg": "Autogas",
+  "hand": "Hand",
+  "gasoline-gas": "Benzin-Gas",
+  "natural-gas": "Erdgas",
+  "eur": "Euro (€)",
+  "usd": "US-Dollar ($)",
+  "gbp": "Britisches Pfund (£)",
+  "pzs": "PzS",
+  "gel": "Gel",
+  "lithium-ion": "Lithium-Ionen",
+  "starter": "Starter",
+  "waterless": "Wartungsfrei",
+  "lead-acid": "Blei-Säure",
+  "single-phase": "Einphasig",
+  "three-phase": "Dreiphasig",
+  "hf": "HF",
+  "integrated": "Integriert",
+  "bandages": "Verbandreifen",
+  "pneumatic": "Luftbereifung",
+  "polyurethane": "Polyurethan",
+  "solid-rubber": "Vollgummi",
+  "super-elastic": "Superelastisch"
+
+  },
+  "messages": {
+    "deleteConfirm": "Möchten Sie dieses Asset wirklich löschen?",
+    "deleteSuccess": "Asset erfolgreich gelöscht!",
+    "deleteError": "Fehler beim Löschen des Assets",
+    "createSuccess": "Asset erfolgreich erstellt!",
+    "updateSuccess": "Asset erfolgreich aktualisiert!",
+    "fetchError": "Fehler beim Laden der Assets"
+  },
+  "create": {
+    "title": "Neues Asset erstellen",
+    "fields": {
+      "titles": "Asset bearbeiten",
+      "mediaFiles": "Mediendateien",
+      "netPrice": "Nettopreis",
+      "selectMastType": "Masttyp auswählen",
+      "priceType": "Preistyp",
+      "price": "Preis",
+      "enterNettoAmountIn": "Netto-Betrag eingeben in",
+      "brand": "Marke",
+      "model": "Modell",
+      "description": "Beschreibung",
+      "purchaseDate": "Kaufdatum",
+      "warehouse": "Lager",
+      "yearOfManufacture": "Baujahr",
+      "battery": "Batterie",
+      "batteryChargeDate": "Batterieladedatum",
+      "capacity": "Kapazität",
+      "operatingHours": "Betriebsstunden",
+      "warrantyExpiration": "Garantieablaufdatum",
+      "fuelType": "Kraftstoffart",
+      "notes": "Notizen",
+      "batteryDescription": "Batteriebeschreibung",
+      "fuelConsumption": "Kraftstoffverbrauch",
+      "leaseCompany": "Leasinggesellschaft",
+      "machineCategory": "Maschinenkategorie",
+      "maintenanceCosts": "Wartungskosten",
+      "operationalStatus": "Betriebsstatus",
+      "purchasePrice": "Kaufpreis",
+      "residualValue": "Restwert",
+      "serialNumber": "Seriennummer",
+      "status": "Status",
+      "totalOperatingCosts": "Gesamtkosten Betrieb",
+      "uvvDueDate": "UVV-Fälligkeitsdatum",
+      "attachments": "Anhänge",
+      "error": "Fehler beim Erstellen des Assets",
+      "success": "Asset erfolgreich erstellt",
+      "updateSuccess": "Asset erfolgreich aktualisiert",
+      "mast": "Mast",
+      "enterMast": "Mast eingeben",
+      "enterBattery": "Batterie eingeben",
+      "warranty": "Garantie",
+      "enterWarranty": "Garantie eingeben",
+      "platform": "Plattform",
+      "visible": "Sichtbar",
+      "insertDate": "Einfügedatum",
+      "id": "ID",
+      "machineIdDealer": "Maschinen-ID Händler",
+      "idUrl": "ID URL",
+      "manufacturer": "Hersteller",
+      "type": "Typ",
+      "machineSerialNo": "Maschinen-Seriennummer",
+      "classification": "Klassifizierung",
+      "forkliftClass": "Gabelstaplerklasse",
+      "antriebsart": "Antriebsart",
+      "machineDescriptionTitle": "Maschinenbeschreibung Titel",
+      "machineDescriptionSubtitle": "Maschinenbeschreibung Untertitel",
+      "machineDescriptionTemp": "Maschinenbeschreibung Temp",
+      "machineAvailable": "Maschine verfügbar",
+      "truckLocation": "Standort des LKW",
+      "salesmen": "Verkäufer",
+      "selectEquipment": "Ausrüstung auswählen",
+      "priceRentalDay": "Tagesmietpreis",
+      "priceRentalWeek": "Wochenmietpreis",
+      "priceRentalMonth": "Monatsmietpreis",
+      "regularPrice": "Regulärer Preis",
+      "nettoPrice": "Nettopreis",
+      "currency": {
+        "dollar": "Dollar",
+        "euro": "Euro",
+        "gbp": "GBP",
+        "usd": "USD",
+        "nettoEuro": "Netto Euro",
+        "nettoUSd": "Netto USD",
+        "nettoDollar": "Netto Dollar",
+        "nettoGbp": "Netto GBP",
+        "selectAttachment": "Anhang auswählen",
+        "equipment": "Ausrüstung",
+        "selectEquipment": "Ausrüstung auswählen",
+        "mediaFiles": "Mediendateien"
+      },
+      "enterAmountIn": "Betrag in {{currency}} eingeben",
+      "techCondition": "Technischer Zustand",
+      "technicalCondition": "Technischer Zustand",
+      "opticialCondition": "Optischer Zustand",
+      "condition": "Zustand",
+      "opticalCondition": "Optischer Zustand",
+      "reconditioningDate": "Überholungsdatum",
+      "offerNoDealer": "Angebotsnummer Händler",
+      "offerNoPlatform": "Angebotsnummer Plattform",
+      "machineLength": "Maschinenlänge",
+      "machineWidth": "Maschinenbreite",
+      "machineHeight": "Maschinenhöhe",
+      "basketLoad": "Korbbelastung",
+      "batteryAvailable": "Batterie verfügbar",
+      "reachHorizontal": "Horizontale Reichweite",
+      "machineWeight": "Maschinengewicht",
+      "closedHeight": "Geschlossene Höhe",
+      "freeHeight": "Freie Höhe",
+      "forkCarriage": "Gabelträger",
+      "forkLength": "Gabellänge",
+      "forkHeight": "Gabelhöhe",
+      "forks": "Gabeln",
+      "loadCentre": "Lastschwerpunkt",
+      "tiresFront": "Vorderreifen",
+      "tiresFrontSize": "Vorderreifen-Größe",
+      "tiresRear": "Hinterreifen",
+      "tiresRearSize": "Hinterreifen-Größe",
+      "twinTires": "Zwillingsreifen",
+      "selectTireType": "Reifentyp auswählen",
+      "selectVisibleOption": "Sichtbarkeitsoption auswählen"
+    },
+   "steps": {
+    "truckbasic": "Grundlegende LKW-Informationen",
+    "truckdescription": "LKW-Beschreibung",
+    "financialInformation": "Finanzielle Informationen",
+    "dealerInformation": "Händlerinformationen"
+  },
+  "placeholders": {
+    "select": "Auswählen",
+    "enter": "Eingeben",
+    "selectFiles": "Klicken Sie hier, um Dateien auszuwählen (Bilder, PDF, DOC usw.)"
+  },
+  "modals": {
+    "uploadFiles": "Dateien hochladen"
+  },
+  "buttons": {
+    "cancel": "Abbrechen",
+    "create": "Asset erstellen"
+  },
+  "status": {
+    "new": "Neu",
+    "used": "Gebraucht",
+    "hire": "Kurzfristige Miete"
+  },
+  "fuelTypes": {
+    "diesel": "Diesel",
+    "electric": "Elektrisch",
+    "hybrid": "Hybrid"
+  },
+  "messages": {
+    "maxFiles": "Maximal 20 Dateien erlaubt",
+    "uploadSuccess": "Dateien erfolgreich hochgeladen",
+    "uploadError": "Fehler beim Hochladen der Dateien"
+  },
+  "fileUpload": {
+    "supportedFormats": "Unterstützte Formate: Bilder (JPEG, PNG, GIF) und Dokumente (PDF, DOC, DOCX, XLS, XLSX). Maximale Größe: 5MB pro Datei.",
+    "preview": {
+      "imageAlt": "Dateivorschau"
+    },
+    "removeFile": "Datei entfernen"
+  },
+  "sections": {
+    "technicalCondition": "Technischer Zustand",
+    "offerInformation": "Angebotsinformationen",
+    "machineDimensions": "Maschinenabmessungen",
+    "forksAndCarriage": "Gabeln und Träger",
+    "tires": "Reifen"
+  }
+  }
+  },
+  "pagination": {
+    "previous": "Zurück",
+    "next": "Weiter",
+    "Page": "Seite",
+    "of": "von",
+    "entries": "Einträge"
+  },
+  "modals": {
+    "create": {
+      "title": "Neues Asset erstellen",
+      "submit": "Erstellen"
+    },
+    "edit": {
+      "title": "Asset bearbeiten",
+      "submit": "Aktualisieren"
+    },
+    "view": {
+      "title": "Asset-Details",
+      "close": "Schließen"
+    }
+  },
+  "navbar": {
+    "changePassword": "Passwort ändern",
+    "logout": "Abmelden",
+    "user": "Benutzer"
+  },
+  "assetDetails":{
+    "fields": {
+    "description": "Beschreibung",
+    "brand": "Marke",
+    "model": "Modell",
+    "machine_category": "Maschinenkategorie",
+    "serial_number": "Seriennummer",
+    "year_of_manufacture": "Baujahr",
+    "lift_height": "Hubhöhe",
+    "capacity": "Kapazität",
+    "mast": "Mast",
+    "closed_height": "Geschlossene Höhe",
+    "purchase_date": "Kaufdatum",
+    "purchase_price": "Kaufpreis",
+    "battery": "Batterie",
+    "battery_description": "Batteriebeschreibung",
+    "battery_charge_due_date": "Fälligkeitsdatum der Batterieladung",
+    "status": "Status",
+    "customer": "Kunde",
+    "condition": "Zustand",
+    "operating_hours": "Betriebsstunden",
+    "warranty": "Garantie",
+    "warranty_expiration_date": "Ablaufdatum der Garantie",
+    "operational_status": "Betriebsstatus",
+    "fuel_type": "Kraftstoffart",
+    "fuel_consumption": "Kraftstoffverbrauch",
+    "uvv_due_date": "UVV-Fälligkeitsdatum",
+    "notes": "Notizen",
+    "useful_life": "Nutzungsdauer",
+    "residual_value": "Restwert",
+    "warehouse": "Lager",
+    "attachments": {
+      "title": "Anhänge",
+      "view": "Ansehen",
+      "download": "Herunterladen",
+      "date": "-{{date}}"
+    }
+  },
+  "status": {
+    "new": "Neu",
+    "used": "Gebraucht",
+    "shortTermHire": "Kurzfristige Miete"
+  },
+  "types": {
+    "Forklift Truck": "Gabelstapler"
+  },
+  "mastTypes": {
+    "Triple": "Dreifach",
+    "Double": "Doppelt",
+    "Single": "Einfach"
+  },
+  "operationalStatus": {
+    "operational": "Betriebsbereit",
+    "nonoperational": "Außer Betrieb"
+  },
+  "batteryTypes": {
+    "Lithium-ion battery": "Lithium-Ionen-Batterie"
+  },
+  "warranty": {
+    "1year": "1 Jahr",
+    "2years": "2 Jahre"
+  },
+  "fuelTypes": {
+    "1": "Diesel",
+    "2": "Elektrisch",
+    "3": "Hybrid"
+  },
+  "warehouse": {
+    "1": "Lager 1",
+    "2": "Lager 2"
+  },
+  "units": {
+    "years": "Jahre"
+  }
+  },
+  "customers": {
+    "create": {
+    "title": "Neuen Kunden erstellen",
+    "fields": {
+      "name": "Kundenname",
+      "contactInfo": "Kontaktinformationen",
+      "manager": "Kundenmanager",
+      "transactionHistory": "Transaktionsverlauf",
+      "customerName": "Kundenname",
+      "customerNo": "Kundennummer",
+      "customerContract": "Kundenvertrag",
+      "uploadContract": "Vertrag hochladen",
+      "endOfContract": "Vertragsende",
+      "contractCompleted": "Vertragsdokumente",
+      "contractCompleted.contractSigned": "Vertrag unterzeichnet",
+      "contractCompleted.passport": "Reisepass",
+      "contractCompleted.sepaDirectDebit": "SEPA-Lastschriftmandat",
+      "contractCompleted.serviceContractSigned": "Dienstleistungsvertrag unterzeichnet",
+      "contractCompleted.authorizedEconomicOperator": "Zugelassener Wirtschaftsbeteiligter",
+      "contractCompleted.applicationAnalysis": "Antragsanalyse"
+    },
+    "update": {
+      "title": "Kunde aktualisieren",
+      "enterName": "Namen eingeben",
+      "enterContactInformation": "Kontaktinformationen eingeben",
+      "enterCustomerManager": "Kundenmanager eingeben",
+      "enterTransactionHistory": "Transaktionsverlauf eingeben",
+      "submitButton": "Kunde aktualisieren",
+      "success": "Kunde erfolgreich aktualisiert",
+      "error": "Fehler beim Aktualisieren des Kunden"
+    },
+    "placeholders": {
+      "enter": "Eingeben"
+    },
+    "buttons": {
+      "cancel": "Abbrechen",
+      "create": "Kunden erstellen"
+    }
+  },
+  "messages": {
+    "fetchError": "Fehler beim Laden der Kunden",
+    "deleteSuccess": "Kunde erfolgreich gelöscht",
+    "deleteError": "Fehler beim Löschen des Kunden",
+    "deleteConfirm": "Sind Sie sicher, dass Sie diesen Kunden löschen möchten?"
+  },
+  "actions": {
+    "create": "Kunden erstellen",
+    "edit": "Kunden bearbeiten",
+    "delete": "Kunden löschen",
+    "view": "Kunden anzeigen"
+  },
+  "loading": {
+    "customer": "Kunde wird geladen"
+  },
+  "table": {
+    "customer_Id": "Kunden-ID",
+    "contact_Information": "Kontaktinformationen",
+    "customer_Manager": "Kundenmanager",
+    "transaction_History": "Transaktionsverlauf",
+    "customer_Name": "Kundenname",
+    "actions": "Aktionen"
+  },
+  "update": {
+    "title": "Kunde aktualisieren",
+    "buttons": {
+      "update": "Kunde aktualisieren"
+    },
+    "messages": {
+      "success": "Kunde erfolgreich aktualisiert",
+      "error": "Fehler beim Aktualisieren des Kunden"
+    }
+  },
+  "searchPlaceholder": "Suche nach Kunden-ID"
+  },
+  "offers": {
+    "create": {
+      "title": "Neues Angebot erstellen",
+      "fields": {
+        "assetId": "Vermögenswert-ID",
+        "customerId": "Kunden-ID",
+        "details": "Angebotsdetails",
+        "price": "Preis",
+        "terms": "Bedingungen",
+        "status": "Status"
+      },
+      "placeholders": {
+        "enter": "Eingeben"
+      },
+      "buttons": {
+        "cancel": "Abbrechen",
+        "create": "Angebot erstellen"
+      }
+    },
+    "title": "Angebote",
+    "table": {
+      "offer_Id": "Angebots-ID",
+      "offer_Details": "Angebotsdetails",
+      "status": "Status",
+      "terms": "Bedingungen",
+      "price": "Preis"
+    },
+    "status": {
+      "pending": "Ausstehend",
+      "accepted": "Akzeptiert",
+      "rejected": "Abgelehnt"
+    },
+    "actions": {
+      "create": "Angebot erstellen",
+      "edit": "Angebot bearbeiten",
+      "delete": "Angebot löschen",
+      "view": "Angebot ansehen"
+    },
+    "loading": {
+      "offers": "Lade Angebote"
+    },
+    "update": {
+      "title": "Angebot aktualisieren"
+    },
+    "messages": {
+      "updateSuccess": "Angebot erfolgreich aktualisiert",
+      "updateError": "Fehler beim Aktualisieren des Angebots"
+    },
+    "searchPlaceholder": "Suche nach Angebots-ID"
+},
+"finance": {
+    "create": {
+      "title": "Neues Asset erstellen",
+      "fields": {
+        "date": "Datum",
+        "depreciation": "Abschreibung",
+        "insuranceCosts": "Versicherungskosten",
+        "maintenanceCosts": "Wartungskosten",
+        "operatingCosts": "Betriebskosten",
+        "notes": "Notizen"
+      },
+      "placeholders": {
+        "enter": "Eingeben"
+      },
+      "buttons": {
+        "cancel": "Abbrechen",
+        "create": "Asset erstellen"
+      }
+    },
+    "summary": {
+      "title": "Finanzübersicht",
+      "totalDepreciation": "Gesamtabschreibung",
+      "totalExpenses": "Gesamtausgaben",
+      "monthlyAverage": "Monatliche Durchschnittsausgaben"
+    },
+    "table": {
+      "book_Value": "Buchwert",
+      "purchase_Price": "Kaufpreis",
+      "total_Depreciation": "Gesamtabschreibung",
+      "total_Insurance_Costs": "Gesamte Versicherungskosten",
+      "total_Maintenance_Costs": "Gesamte Wartungskosten",
+      "total_Operating_Costs": "Gesamte Betriebskosten",
+      "totals": "Gesamtsummen",
+      "financeId": "Finanz-ID",
+      "assetName": "Asset-Name",
+      "date": "Datum",
+      "notes": "Notizen",
+      "depreciation": "Abschreibung",
+      "maintenanceCosts": "Wartungskosten",
+      "operatingCosts": "Betriebskosten",
+      "actions": "Aktionen"
+    },
+    "details": {
+      "financeId": "Finanz-ID",
+      "assetName": "Asset-Name",
+      "date": "Datum",
+      "notes": "Notizen",
+      "depreciation": "Abschreibung",
+      "maintenanceCosts": "Wartungskosten",
+      "operatingCosts": "Betriebskosten"
+    },
+    "actions": {
+      "createOne": "Erstellen",
+      "noDataFound": "Keine Daten gefunden",
+      "createNew": "Neu erstellen",
+      "edit": "Bearbeiten",
+      "delete": "Löschen"
+    },
+    "update": {
+      "title": "Finanzdetails aktualisieren",
+      "buttons": {
+        "update": "Finanzen aktualisieren"
+      },
+      "success": "Finanzdetails erfolgreich aktualisiert",
+      "error": "Fehler beim Aktualisieren der Finanzdetails"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "customer": "Kunde",
+    "offers": "Angebote",
+    "user": {
+      "dashboard": "Benutzer-Dashboard"
+    },
+    "logo": {
+      "mainText": "AMS",
+      "subText": "Asset-Management-System"
+    }
+  },
+  "warehouse": {
+    "table": {
+      "warehouseId": "Lager-ID",
+      "warehouseName": "Lagername",
+      "brand": "Marke",
+      "model": "Modell",
+      "description": "Beschreibung",
+      "capacity": "Kapazität",
+      "status": "Status",
+      "duplicateNameError": "Ein Lager mit diesem Namen existiert bereits"
+    },
+    "actions": {
+      "view": "Ansehen",
+      "edit": "Bearbeiten",
+      "delete": "Löschen",
+      "add": "Lager hinzufügen"
+    },
+    "view": {
+      "title": "Lagerdetails",
+      "error": "Fehler beim Laden der Lagerdetails",
+      "noDetails": "Keine Lagerdetails verfügbar",
+      "fields": {
+        "name": "Name",
+        "address": "Adresse",
+        "city": "Stadt",
+        "country": "Land",
+        "postal_code": "Postleitzahl",
+        "phone": "Telefon",
+        "email": "E-Mail",
+        "capacity": "Kapazität",
+        "current_occupancy": "Aktuelle Belegung",
+        "manager": "Manager",
+        "status": "Status",
+        "description": "Beschreibung",
+        "operating_hours": "Betriebszeiten",
+        "security_level": "Sicherheitsstufe",
+        "climate_controlled": "Klimatisiert",
+        "loading_docks": "Laderampen",
+        "storage_type": "Lagerart"
+      }
+    },
+    "createTitle": "Neues Lager erstellen",
+    "createSuccess": "Lager erfolgreich erstellt!",
+    "createError": "Fehler beim Erstellen des Lagers",
+    "nameLabel": "Lagername",
+    "namePlaceholder": "Lagername eingeben",
+    "managerLabel": "Lagerleiter-ID",
+    "managerPlaceholder": "Lagerleiter-ID eingeben",
+    "capacityLabel": "Kapazität",
+    "capacityPlaceholder": "Kapazität eingeben",
+    "descriptionLabel": "Beschreibung",
+    "descriptionPlaceholder": "Lagerbeschreibung eingeben",
+    "cancelButton": "Abbrechen",
+    "createButton": "Lager erstellen",
+    "loading": "Lagerdetails werden geladen...",
+    "searchPlaceholder": "Nach Lager-ID suchen",
+    "updateTitle": "Lager aktualisieren",
+    "deleteError": "Fehler beim Löschen des Lagers",
+    "deleteSuccess": "Lager erfolgreich gelöscht",
+    "deleteConfirm": "Sind Sie sicher, dass Sie dieses Lager löschen möchten?"
+  },
+  "assetUpdate": {
+    "title": "Asset aktualisieren",
+    "fields": {
+      "brand": "Marke",
+      "enterBrand": "Marke eingeben",
+      "model": "Modell",
+      "enterModel": "Modell eingeben",
+      "description": "Beschreibung",
+      "enterDescription": "Beschreibung eingeben",
+      "purchaseDate": "Kaufdatum",
+      "enterPurchaseDate": "Kaufdatum eingeben",
+      "warehouse": "Lager",
+      "selectWarehouse": "Lager auswählen",
+      "yearOfManufacture": "Baujahr",
+      "enterYearOfManufacture": "Baujahr eingeben",
+      "battery": "Batterie",
+      "enterBattery": "Batterie eingeben",
+      "batteryChargeDate": "Fälligkeit der Batterieladung",
+      "enterBatteryChargeDate": "Fälligkeit der Batterieladung eingeben",
+      "capacity": "Kapazität",
+      "enterCapacity": "Kapazität eingeben",
+      "operatingHours": "Betriebsstunden",
+      "enterOperatingHours": "Betriebsstunden eingeben",
+      "warrantyExpiration": "Garantieablaufdatum",
+      "enterWarrantyExpiration": "Garantieablaufdatum eingeben",
+      "fuelType": "Kraftstoffart",
+      "selectFuelType": "Kraftstoffart auswählen",
+      "fuelTypeOptions": {
+        "diesel": "Diesel",
+        "electric": "Elektrisch",
+        "hybrid": "Hybrid"
+      },
+      "notes": "Notizen",
+      "enterNotes": "Notizen eingeben",
+      "batteryDescription": "Batteriebeschreibung",
+      "enterBatteryDescription": "Batteriebeschreibung eingeben",
+      "fuelConsumption": "Kraftstoffverbrauch",
+      "enterFuelConsumption": "Kraftstoffverbrauch eingeben",
+      "leaseCompany": "Leasinggesellschaft",
+      "enterLeaseCompany": "Leasinggesellschaft eingeben",
+      "machineCategory": "Maschinenkategorie",
+      "enterMachineCategory": "Maschinenkategorie eingeben",
+      "maintenanceCosts": "Wartungskosten",
+      "enterMaintenanceCosts": "Wartungskosten eingeben",
+      "operationalStatus": "Betriebsstatus",
+      "enterOperationalStatus": "Betriebsstatus eingeben",
+      "purchasePrice": "Kaufpreis",
+      "enterPurchasePrice": "Kaufpreis eingeben",
+      "residualValue": "Restwert",
+      "enterResidualValue": "Restwert eingeben",
+      "serialNumber": "Seriennummer",
+      "enterSerialNumber": "Seriennummer eingeben",
+      "status": "Status",
+      "enterStatus": "Status eingeben",
+      "statusOptions": {
+        "new": "Neu",
+        "used": "Gebraucht",
+        "hire": "Kurzfristige Miete"
+      },
+      "totalOperatingCosts": "Gesamte Betriebskosten",
+      "enterTotalOperatingCosts": "Gesamte Betriebskosten eingeben",
+      "uvvDueDate": "UVV-Fälligkeitsdatum",
+      "enterUvvDueDate": "UVV-Fälligkeitsdatum eingeben",
+      "twinTires": "Zwillingsreifen"
+    },
+    "buttons": {
+      "save": "Änderungen speichern",
+      "cancel": "Abbrechen",
+      "close": "Schließen",
+      "updating": "Aktualisiere..."
+    }
+  },
+  "viewAsset": {
+    "title": "Asset-Details",
+    "loading": "Lade Asset-Details...",
+    "noDetails": "Keine Details für dieses Asset verfügbar.",
+    "errorMessage": "Fehler beim Laden der Asset-Details. Bitte versuchen Sie es erneut.",
+    "closeButton": "Schließen",
+    "fields": {
+      "brand": "Marke",
+      "model": "Modell",
+      "description": "Beschreibung",
+      "purchase_date": "Kaufdatum",
+      "warehouse": "Lager",
+      "year_of_manufacture": "Baujahr",
+      "battery": "Batterie",
+      "battery_charge_due_date": "Fälligkeit der Batterieladung",
+      "capacity": "Kapazität",
+      "operating_hours": "Betriebsstunden",
+      "warranty_expiration_date": "Garantieablaufdatum",
+      "fuel_type": "Kraftstoffart",
+      "notes": "Notizen",
+      "battery_description": "Batteriebeschreibung",
+      "fuel_consumption": "Kraftstoffverbrauch",
+      "lease_company": "Leasinggesellschaft",
+      "machine_category": "Maschinenkategorie",
+      "maintenance_costs": "Wartungskosten",
+      "operational_status": "Betriebsstatus",
+      "purchase_price": "Kaufpreis",
+      "residual_value": "Restwert",
+      "serial_number": "Seriennummer",
+      "status": "Status",
+      "total_operating_costs": "Gesamte Betriebskosten",
+      "uvv_due_date": "UVV-Fälligkeitsdatum",
+      "attachments": {
+        "title": "Anhänge",
+        "view": "Ansehen",
+        "download": "Herunterladen",
+        "date": "-{{date}}"
+      },
+      "viewAttachment": "Ansehen",
+      "downloadAttachment": "Herunterladen",
+      "downloadError": "Herunterladen fehlgeschlagen",
+      "noDetails": "Keine Details verfügbar",
+      "viewer": {
+        "imageAlt": "Anhangsvorschau",
+        "documentTitle": "Dokumentenanzeige"
+      }
+    }
+  },
+  "maintenance": {
+  "noData": "Keine Daten gefunden",
+  "createNew": "+ Neu erstellen",
+  "fields": {
+    "id": "Wartungs-ID",
+    "details": "Details",
+    "date": "Datum",
+    "cost": "Kosten"
+  },
+  "create": {
+    "title": "Wartungseintrag hinzufügen",
+    "enterDate": "Datum eingeben",
+    "enterDetails": "Details eingeben",
+    "enterCost": "Kosten eingeben",
+    "addRecord": "Eintrag hinzufügen",
+    "error": "Fehler beim Erstellen des Wartungseintrags"
+  },
+  "edit": {
+    "title": "Wartungseintrag aktualisieren",
+    "enterDate": "Datum eingeben",
+    "enterDetails": "Details eingeben",
+    "enterCost": "Kosten eingeben",
+    "updateRecord": "Eintrag aktualisieren",
+    "error": "Fehler beim Aktualisieren des Wartungseintrags"
+  }
+},
+"viewReport": {
+  "errorMessage": "Fehler beim Laden der Berichtsdaten",
+  "loading": "Laden...",
+  "tabs": {
+    "condition": {
+      "title": "Zustandsbericht der Assets",
+      "subtitle": "Übersicht über die Zustände der Flotten-Assets",
+      "new": "Neu",
+      "used": "Gebraucht"
+    },
+    "maintenance": {
+      "title": "Wartungsstatusbericht",
+      "status": {
+        "pending": "Ausstehend",
+        "inProgress": "In Bearbeitung",
+        "completed": "Abgeschlossen",
+        "completionRate": "Abschlussrate",
+        "totalRecords": "Gesamtanzahl der Einträge"
+      }
+    },
+    "utilization": {
+      "title": "Nutzungsbericht der Assets",
+      "subtitle": "Betriebsstunden und Effizienzmetriken",
+      "totalHours": "Gesamtbetriebsstunden",
+      "averageHours": "Durchschnittliche Stunden pro Asset"
+    }
+  },
+  "tabLabels": {
+    "condition": "Zustandsstatus",
+    "maintenance": "Wartungsstatus",
+    "utilization": "Nutzungsstatus"
+  },
+  "condition": {
+    "title": "Zustandsverteilung der Assets",
+    "subtitle": "Übersicht über die Zustände der Flotten-Assets",
+    "new": "Neu",
+    "used": "Gebraucht",
+    "normal": "Normal",
+    "good": "Gut"
+  },
+  "utilization": {
+    "title": "Nutzungsmetriken der Assets",
+    "subtitle": "Betriebsstunden und Effizienzmetriken",
+    "totalHours": "Gesamtbetriebsstunden",
+    "averageHours": "Durchschnittliche Stunden pro Asset"
+  },
+  "common": {
+    "assets": "Assets",
+    "hours": "Stunden"
+  }
+},
+"viewSales": {
+  "title": "Verkaufsbericht-Dashboard",
+  "errorMessage": "Fehler beim Laden der Verkaufsdaten",
+  "loading": "Laden...",
+  "tabs": {
+    "summary": {
+      "title": "Übersicht über die Verkaufsleistung",
+      "subtitle": "Wichtige Leistungskennzahlen",
+      "totalSales": "Gesamtumsatz",
+      "recentSales": "Jüngste Verkäufe (30 Tage)",
+      "grossProfit": "Bruttogewinn",
+      "profitMargin": "Gewinnmarge"
+    },
+    "customers": {
+      "title": "Kundenanalysen",
+      "subtitle": "Kundenleistungsmetriken",
+      "averageDealSize": "Durchschnittlicher Geschäftsabschluss",
+      "table": {
+        "customer": "Kunde",
+        "totalSpent": "Gesamtausgaben",
+        "dealsCount": "Anzahl der Abschlüsse"
+      }
+    },
+    "offers": {
+      "title": "Angebotsmetriken",
+      "subtitle": "Leistungsanalyse der Verkaufsangebote",
+      "conversionRate": "Konversionsrate",
+      "statusDistribution": "Statusverteilung",
+      "table": {
+        "status": "Status",
+        "count": "Anzahl"
+      }
+    },
+    "assets": {
+      "title": "Asset-Leistung",
+      "subtitle": "Metriken nach Asset-Kategorien",
+      "averageOperatingHours": "Durchschnittliche Betriebsstunden",
+      "table": {
+        "category": "Kategorie",
+        "revenue": "Umsatz",
+        "unitsSold": "Verkaufte Einheiten",
+        "avgPrice": "Durchschnittspreis"
+      }
+    },
+    "financial": {
+      "title": "Finanzmetriken",
+      "subtitle": "Kostenanalyse",
+      "totalCosts": "Gesamtkosten",
+      "operatingCosts": "Betriebskosten"
+    },
+    "trends": {
+      "title": "Verkaufstrends",
+      "subtitle": "Monatliche Performance",
+      "table": {
+        "period": "Zeitraum",
+        "totalSales": "Gesamtumsatz",
+        "numberOfDeals": "Anzahl der Abschlüsse"
+      }
+    }
+  },
+  "tabLabels": {
+    "summary": "Übersicht",
+    "customers": "Kundenanalysen",
+    "offers": "Angebotsmetriken",
+    "assets": "Asset-Leistung",
+    "financial": "Finanzmetriken",
+    "trends": "Verkaufstrends"
+  }
+},
+"viewFinance": {
+  "errorMessage": "Fehler beim Laden der Finanzdaten",
+  "loading": "Lädt...",
+  "tabs": {
+    "depreciation": "Abschreibung",
+    "expenses": "Ausgaben",
+    "roi": "ROI-Analyse"
+  },
+  "titles": {
+    "depreciation": "Bericht zur Abschreibung von Vermögenswerten",
+    "expenses": "Bericht zu Vermögensausgaben",
+    "roi": "Bericht zur ROI-Analyse",
+    "default": "Finanzberichte"
+  },
+  "depreciation": {
+    "title": "Übersicht über die Abschreibung von Vermögenswerten",
+    "subtitle": "Aktueller Abschreibungsstatus der Vermögenswerte",
+    "totalValue": {
+      "title": "Gesamtwert der Vermögenswerte"
+    },
+    "averageValue": {
+      "title": "Durchschnittlicher Vermögenswert"
+    },
+    "totalAssets": {
+      "title": "Gesamtanzahl der Vermögenswerte"
+    }
+  },
+  "expenses": {
+    "title": "Zusammenfassung der Vermögensausgaben",
+    "subtitle": "Wartungs- und Betriebskosten",
+    "maintenanceCosts": "Wartungskosten",
+    "operatingCosts": "Betriebskosten",
+    "insuranceCosts": "Versicherungskosten",
+    "totalAnnual": "Jährliche Gesamtausgaben"
+  },
+  "roi": {
+    "title": "Kostenanalyse",
+    "subtitle": "Kostenmetriken für Vermögenswerte",
+    "totalExpenses": "Gesamtausgaben",
+    "averageCost": "Durchschnittliche Kosten pro Vermögenswert",
+    "totalAssets": "Gesamtanzahl der Vermögenswerte"
+  }
+},
+"report": {
+  "averageOperatingHours": "Durchschnittliche Betriebsstunden"
+},
+"passwordModal": {
+  "title": "Passwort ändern",
+  "currentPassword": "Aktuelles Passwort *",
+  "newPassword": "Neues Passwort *",
+  "confirmPassword": "Neues Passwort bestätigen *",
+  "buttons": {
+    "change": "Ändern",
+    "cancel": "Abbrechen"
+  },
+  "placeholders": {
+    "currentPassword": "Aktuelles Passwort eingeben",
+    "newPassword": "Neues Passwort eingeben",
+    "confirmPassword": "Neues Passwort bestätigen"
+  }
+},
+  "toast":{
+    "loginMessage":"Bitte melden Sie sich an, um auf das Asset-System zuzugreifen."
+  }
+}
+
+
+
+
+
+
+

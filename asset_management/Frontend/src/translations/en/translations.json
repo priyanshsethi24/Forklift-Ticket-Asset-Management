@@ -1,0 +1,1388 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "customerManagerTitle": "Customer Manager Dashboard",
+    "assetManagerTitle": "Asset Manager Dashboard",
+    "warehouseManagerTitle": "Warehouse Manager Dashboard",
+    "financeManagerTitle": "Finance Manager Dashboard",
+    "totalAssets": "Total Assets",
+    "underMaintenance": "Under Maintenance",
+    "usedAssets": "Used Assets",
+    "shortTermHired": "Short Term Hired",
+    "customerManager": {
+      "totalCustomers": "Total Managed Customers",
+      "totalRevenue": "Total Accepted Revenue",
+      "acceptedOffers": "Accepted Offers",
+      "pendingOffers": "Pending Offers"
+    },
+    "warehouseManager": {
+      "totalAssets": "Total Assets",
+      "totalMaintenanceCosts": "Total Maintenance Costs",
+      "assetsUnderMaintenance": "Assets Under Maintenance",
+      "capacity": "Capacity"
+    },
+    "financeManager": {
+      "totalPurchasePrice": "Total Purchase Price",
+      "totalMaintenanceCosts": "Total Maintenance Costs",
+      "totalInsuranceCosts": "Total Insurance Costs",
+      "totalDepreciation": "Total Depreciation"
+    },
+    "errors": {
+      "fetchFailed": "Error loading dashboard data",
+      "required": "This field is required",
+      "mandatoryField": "The field {{field}} is required."
+    }
+  },
+  "createAsset": {
+    "form": {
+      "title": "Create New Asset",
+      "brand": "Brand",
+      "model": "Model",
+      "description": "Description",
+      "purchaseDate": "Purchase Date",
+      "warehouse": "Warehouse",
+      "yearOfManufacture": "Year of Manufacture",
+      "battery": "Battery",
+      "batteryChargeDate": "Battery Charge Due Date",
+      "capacity": "Capacity",
+      "operatingHours": "Operating Hours",
+      "warrantyExpiration": "Warranty Expiration Date",
+      "fuelType": "Fuel Type",
+      "notes": "Notes",
+      "batteryDescription": "Battery Description",
+      "leaseCompany": "Lease Company",
+      "machineCategory": "Machine Category",
+      "maintenanceCosts": "Maintenance Costs",
+      "operationalStatus": "Operational Status",
+      "purchasePrice": "Purchase Price",
+      "residualValue": "Residual Value",
+      "serialNumber": "Serial Number",
+      "status": "Status",
+      "totalOperatingCosts": "Total Operating Costs",
+      "uvvDueDate": "UVV Due Date",
+      "priceType": "Price Type",
+      "priceRentalDay": "Daily Rental Price",
+      "priceRentalWeek": "Weekly Rental Price",
+      "priceRentalMonth": "Monthly Rental Price"
+    },
+    "placeholder":{
+      "enterUniqueID": "Enter Unique ID",
+      "enterAssetId": "Enter Asset ID",
+      "enterSerialNumber": "Enter Serial Number",
+      "enterPlatform": "Enter Platform",
+      "enterVisibleOption": "Enter Visibility Option",
+      "enterCapacity": "Enter Capacity",
+      "enterMastType": "Enter Mast Type",
+      "enterStatus": "Enter Status",
+      "enterClassification": "Enter Classification",
+      "enterFemClass": "Enter FEM Class",
+      "enterDriveType": "Enter Drive Type",
+      "enterEngineType": "Enter Engine Type",
+      "enterCurrency": "Select Currency Type",
+      "enterTitle": "Enter Title",
+      "enterDescription": "Enter Description",
+      "enterDescriptionTemp": "Enter Description Temp",
+      "enterTemporaryDescription": "Enter Temporary Description",
+      "enterAvailableFrom": "Enter Available From",
+      "enterCurrentLocation": "Enter Current Location",
+      "enterLiftHeight": "Enter Lift Height",
+      "enterSalesmen": "Enter Salesmen",
+      "enterAdGroup": "Enter Ad Group",
+      "enterIdUrl": "Enter ID URL",
+      "enterType": "Enter Type",
+      "enterNettoAmountIn": "Enter amount in {{currency}}",
+      "enterAmountIn": "Enter amount in {{currency}}",
+      "enterCustomAttachment": "Enter Custom Attachment",
+      "dealerAttachmentNo": "Enter Dealer Attachments Number",
+      "dealerBatteryNo": "Enter Dealer Battery Number",
+      "dealerChargerNo": "Enter Dealer Charger Number",
+      "dealerAccessPlatforms": "Enter Dealer Access Platforms Number",
+      "enterManufacturer": "Enter Manufacturer",
+      "enterYearOfManufacture": "Enter Year of Manufacture",
+      "enterMachineIdDealer": "Enter Machine ID Dealer",
+      "enterMachineSerialNo": "Enter Machine Serial No",
+      "enterMachineDescriptionTitle": "Enter Machine Description Title",
+      "enterMachineDescriptionSubtitle": "Enter Machine Description Subtitle",
+      "enterMachineDescriptionTemp": "Enter Machine Description Temp",
+      "enterMachineAvailable": "Enter Machine Available",
+      "enterRentalPricePerDay":"Enter Rental Price Per Day",
+      "enterRentalPricePerWeek":"Enter Rental Price Per Week",
+      "enterRentalPricePerMonth":"Enter Rental Price Per Month",
+      "enterRentalPriceDescription":"Enter Rental Price Description",
+      "enterTruckLocation": "Enter Truck Location",
+      "enterMachineLength": "Enter Machine Length",
+      "enterMachineWidth": "Enter Machine Width",
+      "enterMachineHeight": "Enter Machine Height",
+      "enterBasketLoad": "Enter Basket Load",
+      "enterReachHorizontal": "Enter Horizontal Reach",
+      "enterMachineWeight": "Enter Machine Weight",
+      "enterClosedHeight": "Enter Closed Height",
+      "enterFreeHeight": "Enter Free Height",
+      "enterForkCarriage": "Enter Fork Carriage",
+      "enterForkLength": "Enter Fork Length",
+      "enterForks": "Enter Forks",
+      "enterLoadCentre": "Enter Load Centre",
+      "priceNew":"Enter Price",
+      "enterTiresFront": "Enter Tires Front",
+      "enterTiresFrontSize": "Enter Tires Front Size",
+      "enterTiresRear": "Enter Tires Rear",
+      "enterTiresRearSize": "Enter Tires Rear Size",
+      "enterTwinTires": "Enter Twin Tires",
+      "entePriceNetto":"Enter Price Netto",
+      "enterSelectVisibleOption": "Enter Visibility Option",
+      "enterSelectOption": "Enter Option",
+      "enterPriceType": "Enter Price Type",
+      "enterRentalPriceDay": "Enter Rental Price Day",
+      "enterRentalPriceWeek": "Enter Rental Price Week",
+      "enterRentalPriceMonth": "Enter Rental Price Month",
+      "enterBookValue": "Enter Book Value",
+      "enterDepreciationValue": "Enter Depreciation Value",
+      "enterResidualValueEndOfContract": "Enter Residual Value End of Contract",
+      "enterAcquisitionDate": "Enter Acquisition Date",
+      "enterTechnicalCondition": "Enter Technical Condition",
+      "enterCondition": "Enter Condition",
+      "enterOpticalCondition": "Enter Optical Condition",
+      "enterWorkingHeight": "Enter Working Height",
+      "enterBatteryVoltage": "Enter Battery Voltage",
+      "enterBatteryCase": "Enter Battery Case",
+      "enterBatteryCapacity": "Enter Battery Capacity",
+      "enterBatteryChargerType": "Enter Battery Charger Type",
+      "enterAdditionalEquipment": "Enter Additional Equipment",
+      "enterDealerName": "Enter Dealer Name",
+      "enterDealerPrice":"Enter Dealer Price",
+      "enterDealerPriceNetto":"Enter Dealer Price Netto",
+      "enterPriceDescription":"Enter Price Description", 
+      "enterDealerStatus": "Enter Dealer Status",
+      "enterContactInformation": "Enter Dealer Contatct Information",
+      "enterDealerLocation": "Enter Dealer Location",
+      "enterDealerServiceBrands": "Enter Dealer Service Brands",
+      "enterDealerDescription": "Enter Dealer Description",
+      "enterDealerLogoPicUrl": "Enter Dealer Logo Pic Url",
+      "enterDealerId": "Enter Dealer Id",
+      "enterDealerZip": "Enter Dealer Zip",
+      "enterDealerCity": "Enter Dealer City",
+      "enterDealerCountry": "Enter Dealer Country",
+      "enterDealerDetailUrl": "Enter Dealer Detail Url",
+      "enterDealerWebsite": "Enter Dealer Website",
+      "enterDealerContactOwner": "Enter Dealer Contact Owner",
+      "enterDealerOwnerTel": "Enter Dealer Owner Tel",
+      "enterDealerOwnerEmail": "Enter Dealer Owner Email",
+      "enterDealerOwnerLanguage": "Enter Dealer Owner Language",
+      "enterDealerOwnenterDescriptionerCustom": "Enter Dealer Owner Custom",
+      "enterDealerContact1Name": "Enter Dealer Contact 1 Name",
+      "enterDealerContact1Tel": "Enter Dealer Contact 1 Tel",
+      "enterDealerContact1Email": "Enter Dealer Contact 1 Email",
+      "enterDealerContact1Language": "Enter Dealer Contact 1 Language",
+      "enterDealerTrucksNo": "Enter Dealer Trucks No",
+      "enterDealerAttachmentNo": "Enter Dealer Attachments Number",
+      "enterDealerBatteryNo": "Enter Dealer Battery Number",
+      "enterDealerChargerNo": "Enter Dealer Charger Number",
+      "enterDealerAccessPlatforms": "Enter Dealer Access Platforms Number",
+      "enterDealerCleaningMachines": "Enter Dealer Cleaning Machines Number",
+      "enterFinancialPartner": "Enter Financial Partner",
+      "enterFinancialContractClassification": "Enter Financial Contract Classification",
+      "enterFinancialContract": "Enter Financial Contract",
+      "enterFinancialContractNo": "Enter Financial Contract No",
+      "enterDurationInMonths": "Enter Duration In Months"
+    },
+    "placeholders": {
+      "enterBrand": "Enter Brand",
+      "enterModel": "Enter Model",
+      "enterDescription": "Enter Description",
+      "enterYearOfManufacture": "Enter Year of Manufacture",
+      "enterBattery": "Enter Battery",
+      "enterCapacity": "Enter Capacity",
+      "enterOperatingHours": "Enter Operating Hours",
+      "enterNotes": "Enter Notes",
+      "enterBatteryDescription": "Enter Battery Description",
+      "enterFuelConsumption": "Enter Fuel Consumption",
+      "enterLeaseCompany": "Enter Lease Company",
+      "enterMachineCategory": "Enter Machine Category",
+      "enterMaintenanceCosts": "Enter Maintenance Costs",
+      "enterOperationalStatus": "Enter Operational Status",
+      "enterPurchasePrice": "Enter Purchase Price",
+      "enterResidualValue": "Enter Residual Value",
+      "enterSerialNumber": "Enter Serial Number",
+      "enterTotalOperatingCosts": "Enter Total Operating Costs",
+      "uvvDueDate": "UVV Due Date",
+      "enter": "Enter",
+      "enterAdGroup": "Enter Ad Group"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "create": "Create Asset",
+      "save": "Save",
+      "addRecord": "Add Record",
+      "HelpCenter": "Help Center",
+      "TicketSystem": "Asset System",
+      "DataProtection": "Data Protection",
+      "TermsAndCondition": "Terms And Condition",
+      "M-Desk":"M-Desk",
+      "YourTickets": "Your Assets",
+      "AllUsers": "All Users",
+      "Login": "LOG IN",
+      "Signup": "SIGN UP",
+      "How": "How can we help you?",
+      "Search": "SEARCH",
+      "Quantial":"Quantial",
+      "Allrightsreserved":"All rights reserved.",
+      "LoadingAdmin": "Loading Admin Dashboard...",
+      "Knowledge": "Knowledge",
+      "Marketing": "Marketing",
+      "Trucks": "Trucks",
+      "Search By Id": "Search By Name..."
+    },
+    "status": {
+      "new": "New",
+      "used": "Used",
+      "shortTermHire": "Short Term Hire"
+    },
+    "fuelTypes": {
+      "diesel": "Diesel",
+      "electric": "Electric",
+      "hybrid": "Hybrid"
+    },
+    "errors": {
+      "warrantyExpirationFuture": "Warranty expiration date must be in the future.",
+      "uvvDueDateFuture": "UV due date must be in the future.",
+      "batteryChargeDueDateFuture": "Battery charge due date must be in the future."
+    }
+  },
+  "common": {
+    "select": "Select",
+    "actions": "Actions",
+    "searchPlaceholder": "Search by ID",
+    "searchPlaceholderCustomer": "Search by Customer Name",
+    "searchPlaceholderOffer": "Search by Offer ID",
+    "loading": {
+      "assets": "Loading assets...",
+      "data": "Loading data...",
+      "loading": "Loading asset details..."
+    },
+    "errors": {
+      "generic": "An error has occurred",
+      "required": "This field is required",
+      "mandatoryField": "The field {{field}} is required."
+    },
+    "buttons": {
+      "save": "Save",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "addRecord": "Add Record"
+    },
+    "close": "Close",
+    "cancel": "Cancel",
+    "create": "Create Asset",
+    "salesReport": "Sales Report",
+    "warehouse": {
+    "createSuccess": "Warehouse created successfully!",
+    "createError": "Failed to create warehouse"
+    }
+  },
+  "assets": {
+    "title": "Asset Manager",
+    "fields": {
+      "id": "Asset ID",
+      "description": "Description",
+      "descriptionTemp":"Description Temp",
+      "currency":"Currency",
+      "status": "Status",
+      "brand": "Brand",
+      "model": "Model",
+      "uniqueID": "Unique ID",
+      "assetId":"Asset ID",
+      "warehouse": "Warehouse",
+      "purchaseDate": "Purchase Date",
+      "operatingHours": "Operating Hours",
+      "priority": "Priority",
+      "category": "Category",
+      "selectMastType": "Select Mast Type",
+      "selectStatus": "Select Status",
+      "selectClassification": "Select Classification",
+      "selectDriveType": "Select Drive Type",
+      "selectCurrencyType": "Select Currency Type",
+      "selectEngineType": "Select Engine Type",
+      "selectForkliftClass": "Select Forklift Class",
+      "priceType": "Price Type",
+      "priceDescription":"Price Description",
+      "rentalPricePerDay":"Rental Price Per Day",
+      "rentalPricePerWeek":"Rental Price Per Week",
+      "rentalPricePerMonth":"Rental Price Per Month",
+      "rentalPriceDescription":"Rental Price Description",
+      "liftHeight":"Lift Height",
+      "priceNew":"Price",
+      "dealerPrice":"Dealer Price",
+      "dealerPriceNetto":"Dealer Price Netto",
+
+      "tireTypes": {
+        "cushion": "Cushion",
+        "pneumatic": "Pneumatic",
+        "polyurethane": "Polyurethane",
+        "solidrubber": "Solid Rubber",
+        "superelastic": "Super Elastic"
+      },
+      "selectTireType": "Select Tire Type",
+      "conditions": {
+        "new": "New",
+        "likenew": "Like New",
+        "verygood": "Very Good",
+        "good": "Good",
+        "normal": "Normal",
+        "bad": "Bad",
+        "verybad": "Very Bad",
+        "poor": "Poor",
+        "verypoor": "Very Poor"
+      },
+      "opticalConditions": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6"
+      },
+      "explanation": {
+        "platform": "Where trucks are offered",
+        "uniqueID": "Unique ID",
+        "assetId":"Asset ID",
+        "machineSerialNo": "Chassis number",
+        "operatingHours": "Operating hours",
+        "visible": "Visible",
+        "date": "Date",
+        "id": "ID of the platform machine",
+        "dealerId": "ID of the provider's machine",
+        "detailUrl": "Detail URL of the machine",
+        "manufacturer": "Manufacturer",
+        "yearOfManufacture": "Year of manufacture",
+        "priceNetto":"Price Netto",
+        "capacity": "Capacity in kg",
+        "mastType": "Type of mast",
+        "liftHeight": "Lift height in mm",
+        "status": "Status of the truck",
+        "classification": "Type classification",
+        "femClass": "FEM Class",
+        "driveType": "Drive type",
+        "engineType": "Engine Type",
+        "title": "Machine title",
+        "dealerPrice":"Dealer Price",
+        "dealerPriceNetto":"Dealer Price Netto",
+        "priceDescription":"Price Description",
+        "rentalPricePerMonth":"Rental Price Per Month",
+        "rentalPriceDescription":"Rental Price Description",
+        "temporaryDescription": "Reference refurbishment",
+        "availableFrom": "Available from",
+        "currentLocation": "Current location",
+        "salesmen": "Salesmen",
+        "idUrl": " Detail URL of the machine",
+        "priceNew":"Price",
+        "adGroup": "Ad group",
+        "priceType": "Price type",
+        "price": "Rental price per day in €",
+        "netPrice": "Rental price per week in €",
+        "description": "Rental description",
+        "rentalPricePerDay":"Rental Price Per Day",
+        "rentalPricePerWeek":"Rental Price Per Week",
+        "descriptionTemp":"",
+        "mediaFiles": "Media Files",
+        "currency":"Currency type",
+        "technicalCondition": "Technical condition: new, likenew, verygood, good, normal, bad, verybad",
+        "condition": "Technical condition: new, likenew, verygood, good, normal, bad, verybad",
+        "opticalCondition": "Optical Condition : 1 , 2 , 3 , 4 , 5 , 6"
+      },
+      "platform": "Platform",
+      "visible": "Visible",
+      "machineSerialNo": "Serial No",
+      "date": "Date",
+      "dealerId": "Dealer ID",
+      "manufacturer": "Manufacturer",
+      "yearOfManufacture": "Year of Manufacture",
+      "capacity": "Capacity",
+      "mastType": "Mast Type",
+      "classification": "Classification",
+      "femClass": "FEM Class",
+      "driveType": "Drive Type",
+      "engineType": "Engine Type",
+      "title": "Title",
+      "temporaryDescription": "Temporary Description",
+      "availableFrom": "Available From:",
+      "currentLocation": "Current Location",
+      "salesmen": "Salesmen",
+      "idUrl": "ID URL",
+      "adGroup": "Ad Group",
+      "type": "Type",
+      "price": "Price",
+      "netPrice": "Net Price",
+      "mediaFiles": "Media Files",
+      "enterUniqueid": "Enter unique ID",
+      "serialNumber": "Serial Number",
+      "selectPlatform": "Select Platform",
+      "selectCondition": "Select Condition",
+      "selectEquipment": "Select Equipment",
+      "selectAttachment": "Select Attachment",
+      "twinTires": "Twin Tires",
+      "selectOption": "Select Option",
+      "yes": "Yes",
+      "no": "No",
+      "priceNetto":"Price Netto"
+    },
+    "status": {
+      "New": "New",
+      "Used": "Used",
+      "Demo": "Demo",
+      "Rental": "Rental"
+    },
+    "filters": {
+      "status": "Status",
+      "priority": "Priority",
+      "category": "Category",
+      "all": "All"
+    },
+    "actions": {
+      "create": "Create Asset",
+      "edit": "Edit Asset",
+      "delete": "Delete Asset",
+      "view": "View Asset",
+      "viewReport": "View Report",
+      "viewFinance": "View Finance",
+      "viewSales": "View Sales"
+    },
+    "options":{
+      "dealerSearch":"Dealer Search",
+      "customerSearch":"Customer Search",
+      "rentalDevice":"Rental Device",
+      "homepage":"Homepage",
+      "manufacturerPage":"Manufacturer Page",
+      "none":"None",
+      "standard":"Standard",
+      "duplex":"Duplex",
+      "triplex":"Triplex",
+      "quattro":"Quattro",
+      "telescopic":"Telescopic",
+      "demo":"Demo",
+      "rental":"Rental",
+      "new":"New",
+      "used":"Used", 
+      "trailer":"Trailer",
+      "tractor": "Tractor",
+      "manual_pallet_truck": "Manual Pallet Truck",
+      "high_lift_truck": "High Lift Truck",
+      "gasoline_forklift": "Gasoline Forklift",
+      "diesel_forklift": "Diesel Forklift",
+      "electric_3_wheel": "Electric 3-Wheel Forklift",
+      "electric_4_wheel": "Electric 4-Wheel Forklift",
+      "natural_gas_forklift": "Natural Gas Forklift",
+      "reach_stacker": "Reach Stacker",
+      "side_loader": "Side Loader",
+      "other": "Other",
+      "compact_forklift": "Compact Forklift",
+      "low_lift_truck": "Low Lift Truck",
+      "off_road_forklift": "Off-Road Forklift",
+      "truck_mounted_forklift": "Truck-Mounted Forklift",
+      "scissor_lift": "Scissor Lift",
+      "telescopic_forklift": "Telescopic Forklift",
+      "terminal_tractor": "Terminal Tractor",
+      "lpg_forklift": "LPG Forklift",
+      "container_handler": "Container Handler",
+      "reach_truck": "Reach Truck",
+      "narrow_aisle_truck": "Narrow Aisle Truck",
+      "standup_forklift": "Stand-Up Forklift",
+      "pallet_truck_with_scale": "Pallet Truck with Scale",
+      "route_train_trailer": "Route Train Trailer",
+      "four_way_side_loader": "Four-Way Side Loader",
+      "electric_platform_cart": "Electric Platform Cart",
+      "vertical_order_picker": "Vertical Order Picker",
+      "four_way_reach_truck": "Four-Way Reach Truck",
+      "horizontal_order_picker": "Horizontal Order Picker",
+      "battery": "Battery",
+      "diesel" : "Diesel", 
+      "electric": "Electric",
+      "lpg": "LPG",
+      "hand": "Hand",
+      "gasoline-gas": "Gasoline-Gas",
+      "natural-gas": "Natural Gas",
+      "eur": "Euro (€)",
+      "usd": "US Dollar ($)",
+      "gbp": "British Pound (£)",
+      "pzs": "PzS",
+      "gel": "Gel",
+      "lithium-ion": "Lithium-Ion",
+      "starter": "Starter",
+      "waterless": "Waterless",
+      "lead-acid": "Lead Acid",
+      "single-phase": "Single-phase",
+      "three-phase": "Three-phase",
+      "hf": "HF",
+      "integrated": "Integrated",
+      "bandages": "Bandages",
+      "pneumatic": "Pneumatic",
+      "polyurethane": "Polyurethane",
+      "solid-rubber": "Solid Rubber",
+      "super-elastic": "Super Elastic"
+
+    },
+    "messages": {
+      "deleteConfirm": "Are you sure you want to delete this asset?",
+      "deleteSuccess": "Asset successfully deleted!",
+      "deleteError": "Error deleting asset",
+      "createSuccess": "Asset successfully created!",
+      "updateSuccess": "Asset successfully updated!",
+      "fetchError": "Error loading assets"
+    },
+    "create": {
+      "title": "Create New Asset",
+      "fields": {
+        "titles": "Edit Asset",
+        "mediaFiles": "Media Files",
+        "netPrice": "Net Price",
+        "selectMastType": "Select Mast Type",
+        "priceType": "Price Type",
+        "price": "Price",
+        "enterNettoAmountIn": "Enter net amount in",
+        "brand": "Brand",
+        "model": "Model",
+        "description": "Description",
+        "purchaseDate": "Purchase Date",
+        "warehouse": "Warehouse",
+        "yearOfManufacture": "Year of Manufacture",
+        "battery": "Battery",
+        "batteryChargeDate": "Battery Charge Due Date",
+        "capacity": "Capacity",
+        "operatingHours": "Operating Hours",
+        "warrantyExpiration": "Warranty Expiration Date",
+        "fuelType": "Fuel Type",
+        "notes": "Notes",
+        "batteryDescription": "Battery Description",
+        "fuelConsumption": "Fuel Consumption",
+        "leaseCompany": "Lease Company",
+        "machineCategory": "Machine Category",
+        "maintenanceCosts": "Maintenance Costs",
+        "operationalStatus": "Operational Status",
+        "purchasePrice": "Purchase Price",
+        "residualValue": "Residual Value",
+        "serialNumber": "Serial Number",
+        "status": "Status",
+        "totalOperatingCosts": "Total Operating Costs",
+        "uvvDueDate": "UVV Due Date",
+        "attachments": "Attachments",
+        "error": "Error creating asset",
+        "success": "Create Asset Successfully",
+        "updateSuccess": "Asset Updated Successfully",
+        "mast": "Mast",
+        "enterMast": "Enter mast",
+        "enterBattery": "Enter battery",
+        "warranty": "Warranty",
+        "enterWarranty": "Enter warranty",
+        "platform": "Platform",
+        "visible": "Visible",
+        "insertDate": "Insert Date",
+        "id": "ID",
+        "machineIdDealer": "Machine ID Dealer",
+        "idUrl": "ID URL",
+        "manufacturer": "Manufacturer",
+        "type": "Type",
+        "machineSerialNo": "Machine Serial No",
+        "classification": "Classification",
+        "forkliftClass": "Forklift Class",
+        "antriebsart": "Drive Type",
+        "machineDescriptionTitle": "Machine Description Title",
+        "machineDescriptionSubtitle": "Machine Description Subtitle",
+        "machineDescriptionTemp": "Machine Description Temp",
+        "machineAvailable": "Machine Available",
+        "truckLocation": "Truck Location",
+        "salesmen": "Salesmen",
+        "selectEquipment": "Select Equipment",
+        "priceRentalDay": "Daily Rental Price",
+        "priceRentalWeek": "Weekly Rental Price",
+        "priceRentalMonth": "Monthly Rental Price",
+        "regularPrice": "Regular Price",
+        "nettoPrice": "Netto Price",
+        "currency": {
+          "dollar": "Dollar",
+          "euro": "Euro",
+          "gbp": "GBP",
+          "usd":"Usd",
+          "nettoEuro": "Netto euro",
+          "nettoUSd": "Netto usd",
+          "nettoDollar": "Netto dollar",
+          "nettoGbp": "Netto Gbp",
+          "selectAttachment": "Select Attachment",
+          "equipment": "Equipment",
+          "selectEquipment": "Select Equipment",
+          "mediaFiles": "Media Files"
+        },
+        "enterAmountIn": "Enter amount in {{currency}}",
+        "techCondition": "Technical Condition",
+        "technicalCondition": "Technical State",
+        "opticialCondition": "Optical Conditon",
+        "condition":"Condition",
+        "opticalCondition": "Optical Condition",
+        "reconditioningDate": "Reconditioning Date",
+        "offerNoDealer": "Offer Number Dealer",
+        "offerNoPlatform": "Offer Number Platform",
+        "machineLength": "Machine Length",
+        "machineWidth": "Machine Width",
+        "machineHeight": "Machine Height",
+        "basketLoad": "Basket Load",
+        "batteryAvailable":"Battery Available",
+        "reachHorizontal": "Horizontal Reach",
+        "machineWeight": "Machine Weight",
+        "closedHeight": "Closed Height",
+        "freeHeight": "Free Height",
+        "forkCarriage": "Fork Carriage",
+        "forkLength": "Fork Length",
+        "forkHeight": "Fork Height",
+        "forks": "Forks",
+        "loadCentre": "Load Centre",
+        "tiresFront": "Front Tires",
+        "tiresFrontSize": "Front Tire Size",
+        "tiresRear": "Rear Tires",
+        "tiresRearSize": "Rear Tire Size",
+        "twinTires": "Twin Tires",
+        "selectTireType":"Select Tire Type",
+        "selectVisibleOption": "Select Visibility Option"
+      },
+      "steps": {
+        "truckbasic": "Truck Basic Information",
+        "truckdescription": "Truck Description",
+        "financialInformation": "Financial Information",
+        "dealerInformation": "Dealer Information"
+      },
+      "placeholders": {
+        "select": "Select",
+        "enter": "Enter",
+        "selectFiles": "Click to select files (Images, PDF, DOC, etc.)"
+      },
+      "modals": {
+        "uploadFiles": "Upload Files"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "create": "Create Asset"
+      },
+      "status": {
+        "new": "New",
+        "used": "Used",
+        "hire": "Short Term Hire"
+      },
+      "fuelTypes": {
+        "diesel": "Diesel",
+        "electric": "Electric",
+        "hybrid": "Hybrid"
+      },
+      "messages": {
+        "maxFiles": "Maximum 20 files allowed",
+        "uploadSuccess": "Files uploaded successfully",
+        "uploadError": "Error uploading files"
+      },
+      "fileUpload": {
+        "supportedFormats": "Supported formats: Images (JPEG, PNG, GIF) and Documents (PDF, DOC, DOCX, XLS, XLSX). Max size: 5MB per file.",
+        "preview": {
+          "imageAlt": "File preview"
+        },
+        "removeFile": "Remove file"
+      },
+      "sections": {
+        "technicalCondition": "Technical Condition",
+        "offerInformation": "Offer Information",
+        "machineDimensions": "Machine Dimensions",
+        "forksAndCarriage": "Forks and Carriage",
+        "tires": "Tires"
+      }
+    }
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "Page": "Page",
+    "of": "of",
+    "entries": "entries"
+  },
+  "modals": {
+    "create": {
+      "title": "Create New Asset",
+      "submit": "Create"
+    },
+    "edit": {
+      "title": "Edit Asset",
+      "submit": "Update"
+    },
+    "view": {
+      "title": "Asset Details",
+      "close": "Close"
+    }
+  },
+  "navbar": {
+    "changePassword": "Change Password",
+    "logout": "Logout",
+    "user": "User"
+  },
+  "assetDetails": {
+    "fields": {
+      "description": "Description",
+      "brand": "Brand",
+      "model": "Model",
+      "machine_category": "Machine Category",
+      "serial_number": "Serial Number",
+      "year_of_manufacture": "Year of Manufacture",
+      "lift_height": "Lift Height",
+      "capacity": "Capacity",
+      "mast": "Mast",
+      "closed_height": "Closed Height",
+      "purchase_date": "Purchase Date",
+      "purchase_price": "Purchase Price",
+      "battery": "Battery",
+      "battery_description": "Battery Description",
+      "battery_charge_due_date": "Battery Charge Due Date",
+      "status": "Status",
+      "customer": "Customer",
+      "condition": "Condition",
+      "operating_hours": "Operating Hours",
+      "warranty": "Warranty",
+      "warranty_expiration_date": "Warranty Expiration Date",
+      "operational_status": "Operational Status",
+      "fuel_type": "Fuel Type",
+      "fuel_consumption": "Fuel Consumption",
+      "uvv_due_date": "UVV Due Date",
+      "notes": "Notes",
+      "useful_life": "Useful Life",
+      "residual_value": "Residual Value",
+      "warehouse": "Warehouse",
+      "attachments": {
+        "title": "Attachments",
+        "view": "View",
+        "download": "Download",
+        "date": "-{{date}}"
+      }
+    },
+    "status": {
+      "new": "New",
+      "used": "Used",
+      "shortTermHire": "Short Term Hire"
+    },
+    "types": {
+      "Forklift Truck": "Forklift Truck"
+    },
+    "mastTypes": {
+      "Triple": "Triple",
+      "Double": "Double",
+      "Single": "Single"
+    },
+    "operationalStatus": {
+      "operational": "Operational",
+      "nonoperational": "Non-operational"
+    },
+    "batteryTypes": {
+      "Lithium-ion battery": "Lithium-ion Battery"
+    },
+    "warranty": {
+      "1year": "1 Year",
+      "2years": "2 Years"
+    },
+    "fuelTypes": {
+      "1": "Diesel",
+      "2": "Electric",
+      "3": "Hybrid"
+    },
+    "warehouse": {
+      "1": "Warehouse 1",
+      "2": "Warehouse 2"
+    },
+    "units": {
+      "years": "Years"
+    }
+  },
+  "customers": {
+    "create": {
+      "title": "Create New Customer",
+      "fields": {
+        "name": "Customer Name",
+        "contactInfo": "Contact Information",
+        "manager": "Customer Manager",
+        "transactionHistory": "Transaction History",
+        "customerName": "Customer Name",
+        "customerNo": "Customer Number",
+        "customerContract": "Customer Contract",
+        "uploadContract": "Upload Contract",
+        "endOfContract": "End of Contract",
+        "contractCompleted": "Contract Documents",
+        "contractCompleted.contractSigned": "Contract Signed",
+        "contractCompleted.passport": "Passport",
+        "contractCompleted.sepaDirectDebit": "SEPA Direct Debit",
+        "contractCompleted.serviceContractSigned": "Service Contract Signed",
+        "contractCompleted.authorizedEconomicOperator": "Authorized Economic Operator",
+        "contractCompleted.applicationAnalysis": "Application Analysis"
+      },
+      "update": {
+        "title": "Update Customer",
+        "enterName": "Enter Name",
+        "enterContactInformation": "Enter Contact Information",
+        "enterCustomerManager": "Enter Customer Manager",
+        "enterTransactionHistory": "Enter Transaction History",
+        "submitButton": "Update Customer",
+        "success": "Customer updated successfully",
+        "error": "Failed to update customer"
+      },
+      "placeholders": {
+        "enter": "Enter"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "create": "Create Customer"
+      }
+    },
+    "messages": {
+      "fetchError": "Error loading customers",
+      "deleteSuccess": "Customer deleted successfully",
+      "deleteError": "Failed to delete customer",
+      "deleteConfirm": "Are you sure you want to delete this customer?"
+    },
+    "actions": {
+      "create": "Create Customer",
+      "edit": "Edit Customer",
+      "delete": "Delete Customer",
+      "view": "View Customer"
+    },
+    "loading": {
+      "customer": "Loading Customer"
+    },
+    "table": {
+      "customer_Id": "Customer ID",
+      "contact_Information": "Contact Information",
+      "customer_Manager": "Customer Manager",
+      "transaction_History": "Transaction History",
+      "customer_Name": "Customer Name",
+      "actions": "Actions"
+    },
+    "update": {
+      "title": "Update Customer",
+      "buttons": {
+        "update": "Update Customer"
+      },
+      "messages": {
+        "success": "Customer updated successfully",
+        "error": "Failed to update customer"
+      }
+    },
+    "searchPlaceholder": "Search By Cutomer ID"
+  },
+  "offers": {
+    "create": {
+      "title": "Create New Offer",
+      "fields": {
+        "assetId": "Asset ID",
+        "customerId": "Customer ID",
+        "details": "Offer Details",
+        "price": "Price",
+        "terms": "Terms",
+        "status": "Status"
+      },
+      "placeholders": {
+        "enter": "Enter"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "create": "Create Offer"
+      }
+    },
+    "title": "Offers",
+    "table": {
+      "offer_Id": "Offer ID",
+      "offer_Details": "Offer Details",
+      "status": "Status",
+      "terms": "Terms",
+      "price": "Price"
+    },
+    "status": {
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "rejected": "Rejected"
+    },
+    "actions": {
+      "create": "Create Offer",
+      "edit": "Edit Offer",
+      "delete": "Delete Offer",
+      "view": "View Offer"
+    },
+    "loading": {
+      "offers": "Loading Offers"
+    },
+    "update": {
+      "title": "Update Offer"
+    },
+    "messages": {
+      "updateSuccess": "Offer updated successfully",
+      "updateError": "Failed to update offer"
+    },
+    "searchPlaceholder":"Search By Offer ID"
+  },
+  "finance": {
+    "create": {
+      "title": "Create New Asset",
+      "fields": {
+        "date": "Date",
+        "depreciation": "Depreciation",
+        "insuranceCosts": "Insurance Costs",
+        "maintenanceCosts": "Maintenance Costs",
+        "operatingCosts": "Operating Costs",
+        "notes": "Notes"
+      },
+      "placeholders": {
+        "enter": "Enter"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "create": "Create Asset"
+      }
+    },
+    "summary": {
+      "title": "Financial Summary",
+      "totalDepreciation": "Total Depreciation",
+      "totalExpenses": "Total Expenses",
+      "monthlyAverage": "Monthly Average Expenses"
+    },
+    "table": {
+      "book_Value": "Book Value",
+      "purchase_Price": "Purchase Price",
+      "total_Depreciation": "Total Depreciation",
+      "total_Insurance_Costs": "Total Insurance Costs",
+      "total_Maintenance_Costs": "Total Maintenance Costs",
+      "total_Operating_Costs": "Total Operating Costs",
+      "totals": "Totals",
+      "financeId": "Finance ID",
+      "assetName": "Asset Name",
+      "date": "Date",
+      "notes": "Notes",
+      "depreciation": "Depreciation",
+      "maintenanceCosts": "Maintenance Costs",
+      "operatingCosts": "Operating Costs",
+      "actions": "Actions"
+    },
+    "details": {
+      "financeId": "Finance ID",
+      "assetName": "Asset Name",
+      "date": "Date",
+      "notes": "Notes",
+      "depreciation": "Depreciation",
+      "maintenanceCosts": "Maintenance Costs",
+      "operatingCosts": "Operating Costs"
+    },
+    "actions": {
+      "createOne": "Create One",
+      "noDataFound": "No Data Found",
+      "createNew": "Create New",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "update": {
+      "title": "Update Finance Details",
+      "buttons": {
+        "update": "Update Finance"
+      },
+      "success": "Finance details updated successfully",
+      "error": "Failed to update finance details"
+    }
+  },
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "customer": "Customer",
+    "offers": "Offers",
+    "user": {
+      "dashboard": "User Dashboard"
+    },
+    "logo": {
+      "mainText": "AMS",
+      "subText": "Asset Management System"
+    }
+  },
+  "warehouse": {
+    "table": {
+      "warehouseId": "Warehouse ID",
+      "warehouseName": "Warehouse Name",
+      "brand": "Brand",
+      "model": "Model",
+      "description": "Description",
+      "capacity": "Capacity",
+      "status": "Status",
+      "duplicateNameError": "A warehouse with this name already exists"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "add": "Add Warehouse"
+    },
+    "view": {
+      "title": "Warehouse Details",
+      "error": "Error loading warehouse details",
+      "noDetails": "No warehouse details available",
+      "fields": {
+        "name": "Name",
+        "address": "Address",
+        "city": "City",
+        "country": "Country",
+        "postal_code": "Postal Code",
+        "phone": "Phone",
+        "email": "Email",
+        "capacity": "Capacity",
+        "current_occupancy": "Current Occupancy",
+        "manager": "Manager",
+        "status": "Status",
+        "description": "Description",
+        "operating_hours": "Operating Hours",
+        "security_level": "Security Level",
+        "climate_controlled": "Climate Controlled",
+        "loading_docks": "Loading Docks",
+        "storage_type": "Storage Type"
+      }
+    },
+    "createTitle": "Create New Warehouse",
+    "createSuccess": "Warehouse created successfully!",
+    "createError": "Failed to create warehouse",
+    "nameLabel": "Warehouse Name",
+    "namePlaceholder": "Enter Warehouse Name",
+    "managerLabel": "Warehouse Manager ID",
+    "managerPlaceholder": "Enter Warehouse Manager ID",
+    "capacityLabel": "Capacity",
+    "capacityPlaceholder": "Enter Capacity",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Enter Warehouse Description",
+    "cancelButton": "Cancel",
+    "createButton": "Create Warehouse",
+    "loading": "Loading Warehouse details...",
+    "searchPlaceholder": "Search by Warehouse ID",
+    "updateTitle":"warehouse Update",
+    "deleteError":"Failed to delete warehouse",
+    "deleteSuccess":"Warehouse deleted successfully",
+    "deleteConfirm":"Are you sure you want to delete this warehouse?"
+  },
+  "assetUpdate": {
+    "title": "Update Asset",
+    "fields": {
+      "brand": "Brand",
+      "enterBrand": "Enter Brand",
+      "model": "Model",
+      "enterModel": "Enter Model",
+      "description": "Description",
+      "enterDescription": "Enter Description",
+      "purchaseDate": "Purchase Date",
+      "enterPurchaseDate": "Enter Purchase Date",
+      "warehouse": "Warehouse",
+      "selectWarehouse": "Select Warehouse",
+      "yearOfManufacture": "Year of Manufacture",
+      "enterYearOfManufacture": "Enter Year of Manufacture",
+      "battery": "Battery",
+      "enterBattery": "Enter Battery",
+      "batteryChargeDate": "Battery Charge Due Date",
+      "enterBatteryChargeDate": "Enter Battery Charge Due Date",
+      "capacity": "Capacity",
+      "enterCapacity": "Enter Capacity",
+      "operatingHours": "Operating Hours",
+      "enterOperatingHours": "Enter Operating Hours",
+      "warrantyExpiration": "Warranty Expiration Date",
+      "enterWarrantyExpiration": "Enter Warranty Expiration Date",
+      "fuelType": "Fuel Type",
+      "selectFuelType": "Select Fuel Type",
+      "fuelTypeOptions": {
+        "diesel": "Diesel",
+        "electric": "Electric",
+        "hybrid": "Hybrid"
+      },
+      "notes": "Notes",
+      "enterNotes": "Enter Notes",
+      "batteryDescription": "Battery Description",
+      "enterBatteryDescription": "Enter Battery Description",
+      "fuelConsumption": "Fuel Consumption",
+      "enterFuelConsumption": "Enter Fuel Consumption",
+      "leaseCompany": "Lease Company",
+      "enterLeaseCompany": "Enter Lease Company",
+      "machineCategory": "Machine Category",
+      "enterMachineCategory": "Enter Machine Category",
+      "maintenanceCosts": "Maintenance Costs",
+      "enterMaintenanceCosts": "Enter Maintenance Costs",
+      "operationalStatus": "Operational Status",
+      "enterOperationalStatus": "Enter Operational Status",
+      "purchasePrice": "Purchase Price",
+      "enterPurchasePrice": "Enter Purchase Price",
+      "residualValue": "Residual Value",
+      "enterResidualValue": "Enter Residual Value",
+      "serialNumber": "Serial Number",
+      "enterSerialNumber": "Enter Serial Number",
+      "status": "Status",
+      "enterStatus": "Enter Status",
+      "statusOptions": {
+        "new": "New",
+        "used": "Used",
+        "hire": "Short Term Hire"
+      },
+      "totalOperatingCosts": "Total Operating Costs",
+      "enterTotalOperatingCosts": "Enter Total Operating Costs",
+      "uvvDueDate": "UVV Due Date",
+      "enterUvvDueDate": "Enter UVV Due Date",
+      "twinTires": "Twin Tires"
+    },
+    "buttons": {
+      "save": "Save Changes",
+      "cancel": "Cancel",
+      "close": "Close",
+      "updating": "Updating..."
+    }
+  },
+  "viewAsset": {
+    "title": "Asset Details",
+    "loading": "Loading asset details...",
+    "noDetails": "No details available for this asset.",
+    "errorMessage": "Failed to load asset details. Please try again.",
+    "closeButton": "Close",
+    "fields": {
+      "brand": "Brand",
+      "model": "Model",
+      "description": "Description",
+      "purchase_date": "Purchase Date",
+      "warehouse": "Warehouse",
+      "year_of_manufacture": "Year of Manufacture",
+      "battery": "Battery",
+      "battery_charge_due_date": "Battery Charge Due Date",
+      "capacity": "Capacity",
+      "operating_hours": "Operating Hours",
+      "warranty_expiration_date": "Warranty Expiration Date",
+      "fuel_type": "Fuel Type",
+      "notes": "Notes",
+      "battery_description": "Battery Description",
+      "fuel_consumption": "Fuel Consumption",
+      "lease_company": "Lease Company",
+      "machine_category": "Machine Category",
+      "maintenance_costs": "Maintenance Costs",
+      "operational_status": "Operational Status",
+      "purchase_price": "Purchase Price",
+      "residual_value": "Residual Value",
+      "serial_number": "Serial Number",
+      "status": "Status",
+      "total_operating_costs": "Total Operating Costs",
+      "uvv_due_date": "UVV Due Date",
+      "attachments": {
+        "title": "Attachments",
+        "view": "View",
+        "download": "Download",
+        "date": "-{{date}}"
+      },
+      "viewAttachment": "View",
+      "downloadAttachment": "Download",
+      "downloadError": "Download failed",
+      "noDetails": "No details available",
+      "viewer": {
+        "imageAlt": "Attachment preview",
+        "documentTitle": "Document Viewer"
+      }
+    }
+  },
+  "maintenance": {
+    "noData": "No Data Found",
+    "createNew": "+ Create New",
+    "fields": {
+      "id": "Maintenance ID",
+      "details": "Details",
+      "date": "Date",
+      "cost": "Cost"
+    },
+    "create": {
+      "title": "Add Maintenance Record",
+      "enterDate": "Enter Date",
+      "enterDetails": "Enter Details",
+      "enterCost": "Enter Cost",
+      "addRecord": "Add Record",
+      "error": "Failed to create maintenance record"
+    },
+    "edit": {
+      "title": "Update Maintenance Record",
+      "enterDate": "Enter Date",
+      "enterDetails": "Enter Details",
+      "enterCost": "Enter Cost",
+      "updateRecord": "Update Record",
+      "error": "Failed to update maintenance record"
+    }
+  },
+  "viewReport": {
+    "errorMessage": "Failed to load report data",
+    "loading": "Loading...",
+    "tabs": {
+      "condition": {
+        "title": "Asset Condition Report",
+        "subtitle": "Overview of asset conditions across the fleet",
+        "new": "New",
+        "used": "Used"
+      },
+      "maintenance": {
+        "title": "Maintenance Status Report",
+        "status": {
+          "pending": "Pending",
+          "inProgress": "In Progress",
+          "completed": "Completed",
+          "completionRate": "Completion Rate",
+          "totalRecords": "Total Records"
+        }
+      },
+      "utilization": {
+        "title": "Asset Utilization Report",
+        "subtitle": "Operating hours and efficiency metrics",
+        "totalHours": "Total Operating Hours",
+        "averageHours": "Average Hours per Asset"
+      }
+    },
+    "tabLabels": {
+      "condition": "Condition Status",
+      "maintenance": "Maintenance Status",
+      "utilization": "Utilization Status"
+    },
+    "condition": {
+      "title": "Asset Condition Distribution",
+      "subtitle": "Overview of asset conditions across the fleet",
+      "new": "New",
+      "used": "Used",
+      "normal":"Normal",
+      "good":"Good"
+    },
+    "utilization": {
+      "title": "Asset Utilization Metrics",
+      "subtitle": "Operating hours and efficiency metrics",
+      "totalHours": "Total Operating Hours",
+      "averageHours": "Average Hours per Asset"
+    },
+    "common": {
+      "assets": "Assets",
+      "hours": "Hours"
+    }
+  },
+  "viewSales": {
+    "title": "Sales Report Dashboard",
+    "errorMessage": "Failed to load sales data",
+    "loading": "Loading...",
+    "tabs": {
+      "summary": {
+        "title": "Sales Summary Overview",
+        "subtitle": "Key performance indicators",
+        "totalSales": "Total Sales",
+        "recentSales": "Recent Sales (30 days)",
+        "grossProfit": "Gross Profit",
+        "profitMargin": "Profit Margin"
+      },
+      "customers": {
+        "title": "Customer Insights",
+        "subtitle": "Customer Performance Metrics",
+        "averageDealSize": "Average Deal Size",
+        "table": {
+          "customer": "Customer",
+          "totalSpent": "Total Spent",
+          "dealsCount": "Deals Count"
+        }
+      },
+      "offers": {
+        "title": "Offer Metrics",
+        "subtitle": "Sales Offer Performance",
+        "conversionRate": "Conversion Rate",
+        "statusDistribution": "Status Distribution",
+        "table": {
+          "status": "Status",
+          "count": "Count"
+        }
+      },
+      "assets": {
+        "title": "Asset Performance",
+        "subtitle": "Asset Category Metrics",
+        "averageOperatingHours": "Average Operating Hours",
+        "table": {
+          "category": "Category",
+          "revenue": "Revenue",
+          "unitsSold": "Units Sold",
+          "avgPrice": "Avg Price"
+        }
+      },
+      "financial": {
+        "title": "Financial Metrics",
+        "subtitle": "Cost Analysis",
+        "totalCosts": "Total Costs",
+        "operatingCosts": "Operating Costs"
+      },
+      "trends": {
+        "title": "Sales Trends",
+        "subtitle": "Monthly Performance",
+        "table": {
+          "period": "Period",
+          "totalSales": "Total Sales",
+          "numberOfDeals": "Number of Deals"
+        }
+      }
+    },
+    "tabLabels": {
+      "summary": "Summary",
+      "customers": "Customer Insights",
+      "offers": "Offer Metrics",
+      "assets": "Asset Performance",
+      "financial": "Financial Metrics",
+      "trends": "Sales Trends"
+    }
+  },
+  "viewFinance": {
+    "errorMessage": "Failed to load financial data",
+    "loading": "Loading...",
+    "tabs": {
+      "depreciation": "Depreciation",
+      "expenses": "Expenses",
+      "roi": "ROI Analysis"
+    },
+    "titles": {
+      "depreciation": "Asset Depreciation Report",
+      "expenses": "Asset Expenses Report",
+      "roi": "ROI Analysis Report",
+      "default": "Financial Reports"
+    },
+    "depreciation": {
+      "title": "Asset Depreciation Overview",
+      "subtitle": "Current depreciation status of assets",
+      "totalValue": {
+        "title": "Total Asset Value"
+      },
+      "averageValue": {
+        "title": "Average Asset Value"
+      },
+      "totalAssets": {
+        "title": "Total Assets"
+      }
+    },
+    "expenses": {
+      "title": "Asset Expenses Summary",
+      "subtitle": "Maintenance and operational costs",
+      "maintenanceCosts": "Maintenance Costs",
+      "operatingCosts": "Operating Costs",
+      "insuranceCosts": "Insurance Costs",
+      "totalAnnual": "Total Annual Expenses"
+    },
+    "roi": {
+      "title": "Cost Analysis",
+      "subtitle": "Asset cost metrics",
+      "totalExpenses": "Total Expenses",
+      "averageCost": "Average Cost per Asset",
+      "totalAssets": "Total Assets"
+    }
+  },
+  "report": {
+    "averageOperatingHours": "Average Operating Hours"
+  },
+  "passwordModal": {
+    "title": "Change Password",
+    "currentPassword": "Current Password *",
+    "newPassword": "New Password *",
+    "confirmPassword": "Confirm New Password *",
+    "buttons": {
+      "change": "Change",
+      "cancel": "Cancel"
+    },
+    "placeholders": {
+      "currentPassword": "Enter current password",
+      "newPassword": "Enter new password",
+      "confirmPassword": "Confirm new password"
+    }
+  },
+  "toast":{
+    "loginMessage":"Please log in to access the Asset System."
+  }
+}
