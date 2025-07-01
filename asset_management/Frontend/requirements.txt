@@ -1,0 +1,44 @@
+# Core Dependencies
+react>=18.2.0
+react-dom>=18.2.0
+react-router-dom>=6.0.0
+axios>=1.4.0
+
+# UI Components and Icons
+react-icons>=4.10.0
+@mui/material>=5.14.0
+@emotion/react>=11.11.0
+@emotion/styled>=11.11.0
+
+# Internationalization
+i18next>=23.2.0
+react-i18next>=13.0.0
+
+# State Management
+@reduxjs/toolkit>=1.9.5
+react-redux>=8.1.0
+
+# Development Dependencies
+@testing-library/react>=13.4.0
+@testing-library/jest-dom>=5.16.5
+@testing-library/user-event>=13.5.0
+web-vitals>=2.1.4
+
+# Build Tools
+react-scripts>=5.0.1
+webpack>=5.88.0
+babel-loader>=9.1.2
+
+# CSS Processing
+sass>=1.63.6
+css-loader>=6.8.1
+style-loader>=3.3.3
+
+# Code Quality Tools
+eslint>=8.44.0
+prettier>=3.0.0
+
+# Optional Dependencies
+moment>=2.29.4           # For date handling
+chart.js>=4.3.0         # For charts and graphs
+react-chartjs-2>=5.2.0  # React wrapper for Chart.js
